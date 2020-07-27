@@ -7,8 +7,8 @@ const INITIAL_VIEW_STATE = {
   longitude: 103.801711,
   latitude: 1.349136,
   zoom: 10,
-  pitch: 0,
-  bearing: 0,
+  pitch: 60,
+  bearing: 25,
 };
 
 const MAPBOX_TOKEN =
@@ -24,7 +24,7 @@ function ThematicZoneMap({ data, height }) {
     extruded: true,
     lineWidthScale: 20,
     lineWidthMinPixels: 2,
-    getFillColor: [160, 160, 180, 200],
+    getFillColor: [116, 183, 65, 150],
     getRadius: 100,
     getLineWidth: 1,
     getElevation: 30,
@@ -38,7 +38,10 @@ function ThematicZoneMap({ data, height }) {
       initialViewState={INITIAL_VIEW_STATE}
       controller={true}
     >
-      <StaticMap mapboxApiAccessToken={MAPBOX_TOKEN} />
+      <StaticMap
+        mapboxApiAccessToken={MAPBOX_TOKEN}
+        mapStyle="mapbox://styles/liunuozhi/ck9f3xv0809k01it36p6ci0e2"
+      />
     </DeckGL>
   );
 }
