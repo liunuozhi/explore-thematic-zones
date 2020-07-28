@@ -1,16 +1,14 @@
-import React, { Component, useState } from "react";
+import React, { Component } from "react";
 import DeckGL from "@deck.gl/react";
 import { GeoJsonLayer } from "@deck.gl/layers";
 import { StaticMap } from "react-map-gl";
 import { uniq } from "lodash";
-import { scaleOrdinal, scaleLinear } from "d3-scale";
-import Slider from "@material-ui/core/Slider";
-import "./thematicZoneMap.css";
+import { scaleOrdinal } from "d3-scale";
 
 const INITIAL_VIEW_STATE = {
-  longitude: 103.801711,
-  latitude: 1.349136,
-  zoom: 10,
+  longitude: 103.737153,
+  latitude: 1.356559,
+  zoom: 11,
   pitch: 60,
   bearing: 25,
 };
@@ -65,17 +63,14 @@ function addLayer(opacity, data) {
   return layer;
 }
 
-function ThematicZoneMap({ data, height }) {
-  const [opacity, setSliderCaliberation] = useState(50); // set defaut slider to 50
-  const [layer, setLayer] = useState(addLayer(opacity / 100, data)); // set default opacity, divided by 100 to get percentage
-
+function ThematicZoneMap({ data, height, opacity }) {
   return (
     <div>
       <div className="map">
         <DeckGL
           // width={width}
           height={height}
-          layers={[layer]}
+          layers={[addLayer(opacity / 100, data)]}
           initialViewState={INITIAL_VIEW_STATE}
           controller={true}
         >
@@ -84,21 +79,6 @@ function ThematicZoneMap({ data, height }) {
             mapStyle="mapbox://styles/liunuozhi/ckd5pt7p90u9q1ip5q4vepbzd"
           />
         </DeckGL>
-      </div>
-
-      <div className="sideBar">
-        <p>Opacity</p>
-        <Slider
-          value={opacity}
-          onChange={(e, val) => {
-            setSliderCaliberation(val); // update the slider calibration
-            const sliderScaler = scaleLinear().domain([0, 100]).range([0, 1]);
-            const scaledVal = sliderScaler(val);
-            setLayer(addLayer(scaledVal, data));
-          }}
-          aria-labelledby="continuous-slider"
-          color="#000"
-        />
       </div>
     </div>
   );

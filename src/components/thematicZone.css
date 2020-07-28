@@ -1,0 +1,15 @@
+.side-bar {
+  display: inline-block;
+  position: absolute;
+  /* top: 4; */
+  /* left: 0; */
+  margin: 12px;
+  width: 450px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #ffffff;
+  z-index: 1 !important;
+  padding: 6px;
+  padding-top: 20px;
+  font-size: 1em;
+  text-align: center;
+}
