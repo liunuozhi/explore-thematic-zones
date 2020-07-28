@@ -19,19 +19,19 @@ const MAPBOX_TOKEN =
 function ThematicZoneMap({ data, height }) {
   // extract topic of thematic zones as color scaler
   const colors = [
-    [65, 182, 196],
-    [127, 205, 187],
-    [199, 233, 180],
-    [237, 248, 177],
-    [255, 255, 204],
-    [255, 237, 160],
-    [254, 217, 118],
-    [254, 178, 76],
-    [253, 141, 60],
-    [252, 78, 42],
-    [227, 26, 28],
-    [189, 0, 38],
-    [128, 0, 38],
+    [65, 182, 196, 200],
+    [127, 205, 187, 200],
+    [199, 233, 180, 200],
+    [237, 248, 177, 200],
+    [255, 255, 204, 200],
+    [255, 237, 160, 200],
+    [254, 217, 118, 200],
+    [254, 178, 76, 200],
+    [253, 141, 60, 200],
+    [252, 78, 42, 200],
+    [227, 26, 28, 200],
+    [189, 0, 38, 200],
+    [128, 0, 38, 200],
   ];
   const topicList = data.features.map((d) => d.properties.topic);
   const colorScale = scaleOrdinal().domain(uniq(topicList)).range(colors);
@@ -62,7 +62,7 @@ function ThematicZoneMap({ data, height }) {
     >
       <StaticMap
         mapboxApiAccessToken={MAPBOX_TOKEN}
-        mapStyle="mapbox://styles/liunuozhi/ck9f3xv0809k01it36p6ci0e2"
+        mapStyle="mapbox://styles/liunuozhi/ckd5pt7p90u9q1ip5q4vepbzd"
       />
     </DeckGL>
   );
