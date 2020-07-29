@@ -73,6 +73,7 @@ function ThematicZoneMap({ data, height, opacity }) {
           layers={[addLayer(opacity / 100, data)]}
           initialViewState={INITIAL_VIEW_STATE}
           controller={true}
+          getTooltip={({ object }) => object && object.properties.topic}
         >
           <StaticMap
             mapboxApiAccessToken={MAPBOX_TOKEN}
