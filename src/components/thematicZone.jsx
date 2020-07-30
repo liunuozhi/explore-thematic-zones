@@ -10,6 +10,7 @@ import "./thematicZone.css";
 import { uniq, filter } from "lodash";
 
 function updateCheckBox(setCheckBoxState, checkList, topicList, setFilterMask) {
+  // if checkbox updated, the event handler will update checklist and filter mask
   const handleCheckBox = (event) => {
     const updatedCheckList = {
       ...checkList,
@@ -60,17 +61,27 @@ function filterData(data, filterMask) {
 }
 
 function ThematicZone({ data }) {
-  // set defaut slider
-  const [opacity, setSliderCaliberation] = useState(20);
-  // extract topic as a list
+  // <ThematicZone /> component for drawing 3d visualisation with bar chart
+  // including checkbox for selecting zones,
+  // slider for adjusting opacity of map layers
+  // input: geojson with topic and gamma
+  // --------------------------------------------------------
+  // Setting
+  // extract unique topic list from data
   const topicList = uniq(data.features.map((d) => d.properties.topic)).sort();
+  // set defaut caliberation of slider for opacity
+  const [opacity, setOpacity] = useState(30);
+  // set filterMask for checkbox to filter displayed zones
   const [filterMask, setFilterMask] = useState(topicList);
-  // check box
+  // check topic list: the checkbox component requiring certain format topic list
+  // eg. {TA-1: true, TA-2: false}
+  // the check topic list acts as defaut setting for checkbox
   let checkTopicList = {};
   topicList.forEach((d) => {
     checkTopicList[d] = true;
   });
   const [checkList, setCheckBoxState] = useState(checkTopicList);
+  // checkBox virtualDOM element
   const checkBox = updateCheckBox(
     setCheckBoxState,
     checkList,
@@ -100,7 +111,7 @@ function ThematicZone({ data }) {
             <Slider
               value={opacity}
               onChange={(e, val) => {
-                setSliderCaliberation(val); // update the slider calibration
+                setOpacity(val); // update the slider calibration
               }}
               aria-labelledby="continuous-slider"
               color="#000"

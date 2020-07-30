@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { BarChart, CartesianGrid, XAxis, YAxis, Bar } from "recharts";
 import { TA_TOP_BETA } from "../data/TripAdvisor_thematic_zone_top_10_beta";
 
-// We'll use some mock data from `@vx/mock-data` for this.
 const myData = TA_TOP_BETA;
 
 function TopicTermBarChart({ topic, width, height }) {
