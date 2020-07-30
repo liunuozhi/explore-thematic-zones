@@ -1,3 +1,27 @@
-.bar-chart {
+html,
+body {
   background-color: black;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+p {
+  color: white;
+}
+
+.App {
+  background-color: black;
+  padding: 0;
+  margin: 0;
+}
+
+.map {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }

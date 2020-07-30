@@ -69,7 +69,7 @@ function ThematicZoneMap({ data, height, opacity, betaData, barTopic }) {
   const [topic, setTopicState] = useState(barTopic);
   return (
     <div>
-      <div className="map">
+      <div className="map" style={{ position: "relative" }}>
         <DeckGL
           // width={width}
           height={height}
