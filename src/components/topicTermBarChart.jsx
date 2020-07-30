@@ -1,11 +1,8 @@
 import React, { Component } from "react";
 import { BarChart, CartesianGrid, XAxis, YAxis, Bar } from "recharts";
-import { TA_TOP_BETA } from "../data/TripAdvisor_thematic_zone_top_10_beta";
 
-const myData = TA_TOP_BETA;
-
-function TopicTermBarChart({ topic, width, height }) {
-  const data = myData
+function TopicTermBarChart({ topic, width, height, betaData }) {
+  const data = betaData
     .filter((d) => d.topic === topic)
     .sort((a, b) => b.beta - a.beta);
 

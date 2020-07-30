@@ -60,7 +60,7 @@ function filterData(data, filterMask) {
   };
 }
 
-function ThematicZone({ data }) {
+function ThematicZone({ data, barTopic, betaData }) {
   // <ThematicZone /> component for drawing 3d visualisation with bar chart
   // including checkbox for selecting zones,
   // slider for adjusting opacity of map layers
@@ -96,13 +96,15 @@ function ThematicZone({ data }) {
           data={filterData(data, filterMask)}
           height={900}
           opacity={opacity}
+          betaData={betaData}
+          barTopic={barTopic}
         />
       </div>
 
       <div className="side-bar">
-        <div className="chart">
+        {/* <div className="chart">
           <TopicTermBarChart topic="TA-3" height={500} width={400} />
-        </div>
+        </div> */}
         <div className="map-controller">
           <div className="check-box">
             <FormGroup row>{checkBox}</FormGroup>
