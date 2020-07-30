@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import { BarChart, CartesianGrid, XAxis, YAxis, Bar } from "recharts";
+import { maxBy } from "lodash";
 
 function TopicTermBarChart({ topic, width, height, betaData }) {
+  const maxBeta = maxBy(betaData, "beta");
   const data = betaData
     .filter((d) => d.topic === topic)
     .sort((a, b) => b.beta - a.beta);
@@ -19,7 +21,7 @@ function TopicTermBarChart({ topic, width, height, betaData }) {
         <XAxis
           type="number"
           dataKey="beta"
-          domain={[0, 1]}
+          domain={[0, maxBeta]}
           tick={{ fill: "white", fontSize: 12 }}
         />
         <YAxis
