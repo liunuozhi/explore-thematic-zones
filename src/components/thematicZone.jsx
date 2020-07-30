@@ -105,7 +105,7 @@ function ThematicZone({ data, barTopic, betaData }) {
         {/* <div className="chart">
           <TopicTermBarChart topic="TA-3" height={500} width={400} />
         </div> */}
-        <div className="map-controller">
+        <div className="side-controller">
           <div className="check-box">
             <FormGroup row>{checkBox}</FormGroup>
           </div>
