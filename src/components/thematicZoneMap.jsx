@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import DeckGL from "@deck.gl/react";
 import { GeoJsonLayer } from "@deck.gl/layers";
 import { StaticMap } from "react-map-gl";
-import { uniq } from "lodash";
+import { uniq, set } from "lodash";
 import { scaleOrdinal } from "d3-scale";
 
 const INITIAL_VIEW_STATE = {
@@ -56,24 +56,41 @@ function createColorScalerbyTopic(data) {
   return colorScale;
 }
 
-function addLayer(opacity, data) {
+function addLayer(opacity, data, hoverTopic) {
   const colorScaler = createColorScalerbyTopic(data);
+  const filterData =
+    hoverTopic === null
+      ? { ...data }
+      : {
+          ...data,
+          features: data.features.filter(
+            (d) => d.properties.topic === hoverTopic
+          ),
+        };
+
   // create new GeoJSON layer
-  const layer = createGeoJSONLayer(data, colorScaler, opacity);
+  const layer = createGeoJSONLayer(filterData, colorScaler, opacity);
   return layer;
 }
 
 function ThematicZoneMap({ data, opacity }) {
+  const [hoverTopic, setHoverTopicState] = useState(null);
+
   return (
     <div>
       <div className="map" style={{ position: "relative" }}>
         <DeckGL
           // width={1000}
           height={1000}
-          layers={[addLayer(opacity / 100, data)]}
+          layers={[addLayer(opacity / 100, data, hoverTopic)]}
           initialViewState={INITIAL_VIEW_STATE}
           controller={true}
           getTooltip={({ object }) => object && object.properties.topic}
+          onClick={({ object }) =>
+            object === undefined || object === null
+              ? setHoverTopicState(null)
+              : setHoverTopicState(object.properties.topic)
+          }
         >
           <StaticMap
             mapboxApiAccessToken={MAPBOX_TOKEN}
