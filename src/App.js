@@ -1,67 +1,53 @@
 import React, { useState } from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
-import ThematicZone from "./components/thematicZone";
-import { ta_zone } from "./data/ta_zone.js";
-import { TA_TOP_BETA } from "./data/TripAdvisor_thematic_zone_top_10_beta";
-import { ig_zone } from "./data/ig_zone.js";
-import { IG_TOP_BETA } from "./data/Instagram_thematic_zone_top_10_beta";
+import { Scrollama, Step } from "react-scrollama";
+import Map from "./map.jsx";
+
+// introduction
+const introduction = (
+  <p>
+    Aliquip aute aliquip do elit laborum ex nulla labore Lorem aliqua culpa
+    fugiat. Non et labore aute magna Lorem. Veniam sit tempor ipsum occaecat
+    elit cupidatat elit laboris aliqua. Id ut sunt id consectetur nostrud nulla
+    duis quis proident incididunt aliqua est id enim. Aute irure pariatur irure
+    anim consectetur consectetur in occaecat enim labore. Elit cillum non
+    excepteur incididunt sit nostrud adipisicing aliquip occaecat in mollit. Do
+    ipsum aliqua veniam esse esse id. Et nisi deserunt magna minim est sit
+    laborum. Ut cillum Lorem ex reprehenderit. Proident cupidatat id labore
+    reprehenderit excepteur deserunt id in. Culpa sit exercitation aute sit
+    magna eiusmod consequat officia. Do labore commodo nisi do nostrud nostrud
+    non nulla sunt duis veniam esse qui. Officia amet reprehenderit proident
+    proident aliqua id. Voluptate laborum est esse in eu aliqua incididunt
+    exercitation ea veniam Lorem. Nisi occaecat proident pariatur consequat.
+    Tempor nostrud proident velit consectetur reprehenderit elit ad minim Lorem
+    labore est est aliqua.
+  </p>
+);
 
 function App() {
+  // scrollama step index
+  const [currentStepIndex, setCurrentStepIndex] = useState(1);
   return (
     <div className="App">
-      <div className="container">
-        <h1>Thematic Zones Map</h1>
-        <p>
-          Incididunt pariatur et enim tempor non irure dolor voluptate sunt duis
-          labore. Laborum consectetur nisi minim est cillum aliquip dolor
-          exercitation esse dolore. Enim tempor sunt pariatur dolore. Cillum
-          magna qui dolor Lorem esse culpa ex ut nisi ex exercitation. Esse esse
-          cupidatat consequat Lorem ut cillum velit elit fugiat deserunt velit.
-          Occaecat amet proident qui aute do adipisicing et excepteur nostrud
-          qui consequat et non exercitation. Quis pariatur aliquip mollit est
-          eiusmod. Incididunt qui non ut mollit minim id non irure ad et
-          pariatur tempor irure aliqua. Esse enim tempor ipsum cupidatat
-          voluptate in. Velit consectetur culpa laboris elit nisi enim aute
-          consequat. Aliqua mollit minim qui cillum. Voluptate tempor culpa est
-          velit laborum cillum. Sunt officia officia mollit cillum proident ex
-          ut non nisi mollit nostrud voluptate minim. Enim in duis Lorem aute
-          proident mollit id eiusmod id mollit aliquip adipisicing ad. Amet
-          mollit adipisicing dolore excepteur consectetur esse non officia sit.
-          Sint officia ex aliqua ea aute ullamco laborum qui aute. Pariatur et
-          ullamco consectetur nostrud consectetur consectetur sit culpa laborum
-          proident tempor. Incididunt in irure est deserunt aliquip adipisicing
-          et adipisicing occaecat cillum. Ut commodo labore ea officia nisi
-          velit sint esse nulla minim id. Nulla nostrud proident do
-          exercitation. Nostrud eiusmod commodo culpa id esse anim pariatur
-          deserunt. Non eiusmod ad est consequat officia ullamco nisi ipsum aute
-          aute culpa. Reprehenderit aliqua adipisicing incididunt reprehenderit
-          est laborum eu quis ipsum ullamco. Adipisicing laboris officia quis
-          proident dolore officia ea ad excepteur sit ullamco culpa magna ut. Do
-          mollit non laborum veniam aliqua in esse elit duis mollit mollit
-          nostrud non. Nulla tempor pariatur magna irure voluptate velit aute
-          anim. Pariatur do ad anim consequat sunt ex ullamco sunt in. Ex amet
-          ex aliqua mollit culpa et. Lorem ad non ex eu enim dolor. Officia ex
-          esse ullamco dolore laborum deserunt proident ullamco cupidatat do.
-          Sunt velit cupidatat reprehenderit voluptate irure Lorem culpa
-          consectetur id irure irure aliquip. Ipsum in laboris dolore commodo ad
-          officia est do. Eiusmod tempor eiusmod eiusmod Lorem sint duis aliquip
-          et duis sunt. Aute ex sunt incididunt nostrud enim deserunt et velit.
-          Laboris irure et quis consequat non culpa laborum duis eu non. Labore
-          non ullamco incididunt eu fugiat cupidatat nostrud quis. Elit deserunt
-          Lorem elit eiusmod veniam velit deserunt nisi. Adipisicing aliquip
-          minim labore laborum quis enim Lorem fugiat fugiat incididunt cillum.
-          Aute magna in eu enim adipisicing esse duis dolor incididunt. Sunt
-          amet ad commodo dolor sunt. Dolore consectetur esse culpa amet mollit
-          magna dolore. Do ex reprehenderit adipisicing dolore deserunt ex non
-          officia non dolor do. Sint culpa velit irure excepteur duis mollit.
-          Occaecat dolor elit aliquip dolore fugiat aliqua aliquip tempor irure
-          proident nulla nulla.
-        </p>
-      </div>
-
       <div className="map">
-        <ThematicZone data={ig_zone} betaData={IG_TOP_BETA} barTopic="IG-3" />
+        <Map step={currentStepIndex} />
+      </div>
+      <div className="content">
+        <Scrollama onStepEnter={(index) => setCurrentStepIndex(index)}>
+          <Step data={1} key={1}>
+            <h1>Explore Singapore Thematic Zone</h1>
+          </Step>
+          <Step data={2} key={2}>
+            <div style={{ margin: "100vh 0" }}>{introduction}</div>
+          </Step>
+          <Step data={3} key={3}>
+            <div style={{ margin: "100vh 0" }}>{introduction}</div>
+          </Step>
+          <Step data={4} key={4}>
+            <div style={{ margin: "100vh 0" }}>{introduction}</div>
+          </Step>
+        </Scrollama>
       </div>
     </div>
   );

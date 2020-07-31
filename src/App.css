@@ -7,21 +7,32 @@ body {
 
 h1,
 p {
-  color: white;
+  padding: 0;
+  margin: 0;
+  background-color: rgba(60, 60, 60, 0.8);
 }
 
 .App {
   background-color: black;
   padding: 0;
   margin: 0;
+  color: white;
 }
 
-.map {
-  padding: 0;
-  margin: 0;
-}
-
-.container {
-  margin-top: 50px;
-  margin-bottom: 50px;
+.content {
+  display: inline-block;
+  position: fixed;
+  margin: 50px;
+  margin-right: 0;
+  width: 600px;
+  height: 800px;
+  right: 30px;
+  /* background-color: rgba(60, 60, 60, 0); */
+  color: #ffffff;
+  z-index: 1 !important;
+  padding: 6px;
+  padding-top: 20px;
+  font-size: 1em;
+  text-align: center;
+  overflow-y: scroll;
 }
