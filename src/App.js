@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
-import DeckGL from "@deck.gl/react";
-import { StaticMap } from "react-map-gl";
 import { Scrollama, Step } from "react-scrollama";
+import Map from "./map.jsx";
 
 // introduction
 const introduction = (
@@ -26,60 +25,26 @@ const introduction = (
   </p>
 );
 
-function Map() {
-  // deck map --------------
-  // layers setting
-  const layers = [];
-
-  // default setting for deck gl
-  const MAPBOX_TOKEN =
-    "pk.eyJ1IjoibGl1bnVvemhpIiwiYSI6ImNrOWYzZjk4ZDA3bjEzbHRiY25uM2JlNTIifQ.7tW8LLkYKsI2wqjmezrKjw";
-  const INITIAL_VIEW_STATE = {
-    longitude: 103.737153,
-    latitude: 1.356559,
-    zoom: 11,
-    pitch: 60,
-    bearing: 25,
-  };
-  const deckMap = (
-    <div>
-      <DeckGL
-        // width={1200}
-        // height={800}
-        layers={layers}
-        initialViewState={INITIAL_VIEW_STATE}
-        controller={true}
-      >
-        <StaticMap
-          mapboxApiAccessToken={MAPBOX_TOKEN}
-          mapStyle="mapbox://styles/liunuozhi/ckd5pt7p90u9q1ip5q4vepbzd"
-        />
-      </DeckGL>
-    </div>
-  );
-  return deckMap;
-}
-
 function App() {
   // scrollama step index
-  const [currentStepIndex, setCurrentStepIndex] = useState(null);
+  const [currentStepIndex, setCurrentStepIndex] = useState(1);
   return (
     <div className="App">
       <div className="map">
-        <Map />
+        <Map step={currentStepIndex} />
       </div>
       <div className="content">
         <Scrollama onStepEnter={(index) => setCurrentStepIndex(index)}>
-          <Step data="1" key="1">
+          <Step data={1} key={1}>
             <h1>Explore Singapore Thematic Zone</h1>
           </Step>
-          <Step data="2" key="2">
+          <Step data={2} key={2}>
             <div style={{ margin: "100vh 0" }}>{introduction}</div>
           </Step>
-          <Step data="3" key="3">
+          <Step data={3} key={3}>
             <div style={{ margin: "100vh 0" }}>{introduction}</div>
           </Step>
-          <Step data="4" key="4">
+          <Step data={4} key={4}>
             <div style={{ margin: "100vh 0" }}>{introduction}</div>
           </Step>
         </Scrollama>

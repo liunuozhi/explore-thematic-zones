@@ -1,16 +1,14 @@
-import React, { Component, useState } from "react";
+import React from "react";
 import DeckGL from "@deck.gl/react";
 import { GeoJsonLayer } from "@deck.gl/layers";
 import { StaticMap } from "react-map-gl";
 import { uniq } from "lodash";
 import { scaleOrdinal } from "d3-scale";
-import TopicTermBarChart from "./topicTermBarChart";
-import "./thematicZone.css";
 
 const INITIAL_VIEW_STATE = {
-  longitude: 103.737153,
-  latitude: 1.356559,
-  zoom: 11,
+  longitude: 103.885261,
+  latitude: 1.358412,
+  zoom: 10.5,
   pitch: 60,
   bearing: 25,
 };
@@ -65,40 +63,23 @@ function addLayer(opacity, data) {
   return layer;
 }
 
-function ThematicZoneMap({ data, height, opacity, betaData, barTopic }) {
-  const [topic, setTopicState] = useState(barTopic);
+function ThematicZoneMap({ data, opacity }) {
   return (
     <div>
       <div className="map" style={{ position: "relative" }}>
         <DeckGL
-          // width={width}
-          height={height}
+          // width={1000}
+          height={1000}
           layers={[addLayer(opacity / 100, data)]}
           initialViewState={INITIAL_VIEW_STATE}
           controller={true}
           getTooltip={({ object }) => object && object.properties.topic}
-          onClick={({ object }) => {
-            if (object !== null) {
-              setTopicState(object.properties.topic);
-              console.log(topic);
-            }
-          }}
         >
           <StaticMap
             mapboxApiAccessToken={MAPBOX_TOKEN}
             mapStyle="mapbox://styles/liunuozhi/ckd5pt7p90u9q1ip5q4vepbzd"
           />
         </DeckGL>
-      </div>
-      <div className="side-bar">
-        <div className="chart">
-          <TopicTermBarChart
-            topic={topic}
-            height={500}
-            width={400}
-            betaData={betaData}
-          />
-        </div>
       </div>
     </div>
   );
