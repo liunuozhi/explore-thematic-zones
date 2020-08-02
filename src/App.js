@@ -1,9 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, createContext } from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import { Scrollama, Step } from "react-scrollama";
 import Map from "./map.jsx";
 import UserGuideHelper from "./helperIcon";
+import ClickedTopicContext from "./clickedTopicContext";
+import TopicTermBarChart from "./components/topicTermBarChart";
+import { TA_TOP_BETA } from "./data/TripAdvisor_thematic_zone_top_10_beta";
 
 // introduction
 const introduction = (
@@ -27,34 +30,46 @@ const introduction = (
 );
 
 function App() {
+  // create context for selecting topic
+  const [clickedTopic, setClickedTopic] = useState(null);
+  console.log(clickedTopic);
+
   // scrollama step index
   const [currentStepIndex, setCurrentStepIndex] = useState(1);
   return (
     <div className="App">
-      <div className="map">
-        <Map step={currentStepIndex} />
-      </div>
+      <ClickedTopicContext.Provider value={{ clickedTopic, setClickedTopic }}>
+        <div className="map">
+          <Map step={currentStepIndex} />
+        </div>
 
-      <div className="question">
-        <UserGuideHelper />
-      </div>
+        <div className="question">
+          <UserGuideHelper />
+        </div>
 
-      <div className="content">
-        <Scrollama onStepEnter={(index) => setCurrentStepIndex(index)}>
-          <Step data={1} key={1}>
-            <h1>Explore Singapore Thematic Zone</h1>
-          </Step>
-          <Step data={2} key={2}>
-            <div style={{ margin: "100vh 0" }}>{introduction}</div>
-          </Step>
-          <Step data={3} key={3}>
-            <div style={{ margin: "100vh 0" }}>{introduction}</div>
-          </Step>
-          <Step data={4} key={4}>
-            <div style={{ margin: "100vh 0" }}>{introduction}</div>
-          </Step>
-        </Scrollama>
-      </div>
+        <div className="content">
+          <Scrollama onStepEnter={(index) => setCurrentStepIndex(index)}>
+            <Step data={1} key={1}>
+              <h1>Explore Singapore Thematic Zone</h1>
+            </Step>
+            <Step data={2} key={2}>
+              <div style={{ margin: "100vh 0" }}>
+                <TopicTermBarChart
+                  betaData={TA_TOP_BETA}
+                  height={500}
+                  width={500}
+                />
+              </div>
+            </Step>
+            <Step data={3} key={3}>
+              <div style={{ margin: "100vh 0" }}>{introduction}</div>
+            </Step>
+            <Step data={4} key={4}>
+              <div style={{ margin: "100vh 0" }}>{introduction}</div>
+            </Step>
+          </Scrollama>
+        </div>
+      </ClickedTopicContext.Provider>
     </div>
   );
 }

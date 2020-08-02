@@ -1,12 +1,17 @@
-import React, { Component } from "react";
+import React, { useContext } from "react";
 import { BarChart, CartesianGrid, XAxis, YAxis, Bar } from "recharts";
 import { maxBy } from "lodash";
+import ClickedTopicContext from "../clickedTopicContext";
 
-function TopicTermBarChart({ topic, width, height, betaData }) {
+function TopicTermBarChart({ width, height, betaData }) {
+  const { clickedTopic, setClickedTopic } = useContext(ClickedTopicContext);
+  const topic = clickedTopic === null ? "TA-3" : clickedTopic;
   const maxBeta = maxBy(betaData, "beta");
   const data = betaData
     .filter((d) => d.topic === topic)
     .sort((a, b) => b.beta - a.beta);
+
+  console.log(clickedTopic);
 
   return (
     <div backgroundColor="red">
