@@ -1,4 +1,4 @@
-import React, { useState, createContext } from "react";
+import React, { useState } from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import { Scrollama, Step } from "react-scrollama";
@@ -32,7 +32,6 @@ const introduction = (
 function App() {
   // create context for selecting topic
   const [clickedTopic, setClickedTopic] = useState(null);
-  console.log(clickedTopic);
 
   // scrollama step index
   const [currentStepIndex, setCurrentStepIndex] = useState(1);

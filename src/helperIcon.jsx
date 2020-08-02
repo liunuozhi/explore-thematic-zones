@@ -1,7 +1,6 @@
 import React from "react";
 import HelpOutlineRoundedIcon from "@material-ui/icons/HelpOutlineRounded";
 import Tooltip from "@material-ui/core/Tooltip";
-import { defaultTo } from "lodash";
 
 function UserGuideHelper() {
   return (

@@ -2,7 +2,7 @@ import React, { useState, useContext } from "react";
 import DeckGL from "@deck.gl/react";
 import { GeoJsonLayer } from "@deck.gl/layers";
 import { StaticMap } from "react-map-gl";
-import { uniq, set } from "lodash";
+import { uniq } from "lodash";
 import { scaleOrdinal } from "d3-scale";
 import ClickedTopicContext from "../clickedTopicContext";
 
@@ -76,7 +76,7 @@ function addLayer(opacity, data, hoverTopic) {
 
 function ThematicZoneMap({ data, opacity }) {
   const [hoverTopic, setHoverTopicState] = useState(null);
-  const { clickedTopic, setClickedTopic } = useContext(ClickedTopicContext);
+  const { setClickedTopic } = useContext(ClickedTopicContext);
 
   if (hoverTopic !== null) {
     setClickedTopic(hoverTopic);
