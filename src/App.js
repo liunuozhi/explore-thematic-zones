@@ -3,6 +3,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import { Scrollama, Step } from "react-scrollama";
 import Map from "./map.jsx";
+import UserGuideHelper from "./helperIcon";
 
 // introduction
 const introduction = (
@@ -33,6 +34,11 @@ function App() {
       <div className="map">
         <Map step={currentStepIndex} />
       </div>
+
+      <div className="question">
+        <UserGuideHelper />
+      </div>
+
       <div className="content">
         <Scrollama onStepEnter={(index) => setCurrentStepIndex(index)}>
           <Step data={1} key={1}>
