@@ -47,7 +47,10 @@ function App() {
         </div>
 
         <div className="content">
-          <Scrollama onStepEnter={(index) => setCurrentStepIndex(index)}>
+          <Scrollama
+            onStepEnter={(index) => setCurrentStepIndex(index)}
+            offset={0.6}
+          >
             <Step data={1} key={1}>
               <h1>Explore Singapore Thematic Zone</h1>
             </Step>

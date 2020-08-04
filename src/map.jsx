@@ -21,8 +21,6 @@ function selectDataByStep(step) {
 }
 
 function Map({ step = 1 }) {
-  // default setting for deck gl
-  console.log(step);
   return (
     <div>
       <ThematicZone data={selectDataByStep(step.data)} />
