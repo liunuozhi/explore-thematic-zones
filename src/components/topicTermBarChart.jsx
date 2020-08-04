@@ -3,9 +3,9 @@ import { BarChart, CartesianGrid, XAxis, YAxis, Bar } from "recharts";
 import { maxBy } from "lodash";
 import ClickedTopicContext from "../clickedTopicContext";
 
-function TopicTermBarChart({ width, height, betaData }) {
+function TopicTermBarChart({ width, height, betaData, defaultTopic }) {
   const { clickedTopic } = useContext(ClickedTopicContext);
-  const topic = clickedTopic === null ? "TA-3" : clickedTopic;
+  const topic = clickedTopic === null ? defaultTopic : clickedTopic;
   const maxBeta = maxBy(betaData, "beta");
   const data = betaData
     .filter((d) => d.topic === topic)

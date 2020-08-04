@@ -7,6 +7,7 @@ import UserGuideHelper from "./helperIcon";
 import ClickedTopicContext from "./clickedTopicContext";
 import TopicTermBarChart from "./components/topicTermBarChart";
 import { TA_TOP_BETA } from "./data/TripAdvisor_thematic_zone_top_10_beta";
+import { IG_TOP_BETA } from "./data/Instagram_thematic_zone_top_10_beta";
 
 // introduction
 const introduction = (
@@ -52,22 +53,35 @@ function App() {
             offset={0.6}
           >
             <Step data={1} key={1}>
-              <h1>Explore Singapore Thematic Zone</h1>
+              <h1 style={{ marginTop: "1vh", padding: "50px 0 50px" }}>
+                Explore Singapore Thematic Zone
+              </h1>
             </Step>
             <Step data={2} key={2}>
+              <div style={{ margin: "100vh 0" }}>{introduction}</div>
+            </Step>
+            <Step data={3} key={3}>
               <div style={{ margin: "100vh 0" }}>
                 <TopicTermBarChart
                   betaData={TA_TOP_BETA}
                   height={500}
                   width={500}
+                  defaultTopic="TA-3"
                 />
               </div>
             </Step>
-            <Step data={3} key={3}>
-              <div style={{ margin: "100vh 0" }}>{introduction}</div>
-            </Step>
             <Step data={4} key={4}>
-              <div style={{ margin: "100vh 0" }}>{introduction}</div>
+              {introduction}
+            </Step>
+            <Step data={5} key={5}>
+              <div style={{ margin: "100vh 0" }}>
+                <TopicTermBarChart
+                  betaData={IG_TOP_BETA}
+                  height={500}
+                  width={500}
+                  defaultTopic="IG-1"
+                />
+              </div>
             </Step>
           </Scrollama>
         </div>
