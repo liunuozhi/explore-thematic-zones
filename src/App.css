@@ -37,6 +37,10 @@ p {
   overflow-y: scroll;
 }
 
+.content::-webkit-scrollbar {
+  display: none;
+}
+
 .question {
   display: inline-block;
   position: fixed;
