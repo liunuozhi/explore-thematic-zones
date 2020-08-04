@@ -2,7 +2,7 @@ import React, { useState, useContext } from "react";
 import DeckGL from "@deck.gl/react";
 import { GeoJsonLayer } from "@deck.gl/layers";
 import { StaticMap } from "react-map-gl";
-import { uniq } from "lodash";
+import { uniq, set } from "lodash";
 import { scaleOrdinal } from "d3-scale";
 import ClickedTopicContext from "../clickedTopicContext";
 
@@ -84,12 +84,17 @@ function ThematicZoneMap({ data, opacity }) {
     setClickedTopic(null);
   }
 
+  const [windowSize] = useState({
+    height: window.innerHeight,
+    width: window.innerWidth,
+  });
+
   return (
     <div>
       <div className="map" style={{ position: "relative" }}>
         <DeckGL
-          // width={1000}
-          height={1000}
+          width={windowSize.width}
+          height={windowSize.height}
           layers={[addLayer(opacity / 100, data, hoverTopic)]}
           initialViewState={INITIAL_VIEW_STATE}
           controller={true}
