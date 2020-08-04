@@ -57,9 +57,11 @@ function App() {
                 Explore Singapore Thematic Zone
               </h1>
             </Step>
+
             <Step data={2} key={2}>
               <div style={{ margin: "100vh 0" }}>{introduction}</div>
             </Step>
+
             <Step data={3} key={3}>
               <div style={{ margin: "100vh 0" }}>
                 <TopicTermBarChart
@@ -70,9 +72,11 @@ function App() {
                 />
               </div>
             </Step>
+
             <Step data={4} key={4}>
               {introduction}
             </Step>
+
             <Step data={5} key={5}>
               <div style={{ margin: "100vh 0" }}>
                 <TopicTermBarChart
@@ -82,6 +86,22 @@ function App() {
                   defaultTopic="IG-1"
                 />
               </div>
+            </Step>
+
+            <Step data={6} key={6}>
+              <div style={{ margin: "100vh 0" }}>{introduction}</div>
+            </Step>
+
+            <Step data={7} key={7}>
+              <div style={{ margin: "100vh 0" }}>{introduction}</div>
+            </Step>
+
+            <Step data={8} key={8}>
+              <div style={{ margin: "100vh 0" }}>{introduction}</div>
+            </Step>
+
+            <Step data={9} key={9}>
+              <div style={{ margin: "100vh 0" }}>{introduction}</div>
             </Step>
           </Scrollama>
         </div>
