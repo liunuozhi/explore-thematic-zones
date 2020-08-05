@@ -2,7 +2,7 @@ import React, { useState, useCallback } from "react";
 import DeckGL from "@deck.gl/react";
 import { StaticMap, FlyToInterpolator } from "react-map-gl";
 import { createIndexLayer } from "./selectGeoJsonLayerCreator";
-import { Switch, Button } from "@material-ui/core";
+import { Button } from "@material-ui/core";
 
 const INITIAL_VIEW_STATE = {
   longitude: 103.805438,
