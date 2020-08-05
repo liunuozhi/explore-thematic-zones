@@ -1,11 +1,15 @@
-export const diversity = {
+export const uniqueness = {
   type: "FeatureCollection",
-  name: "diversity",
+  name: "uniqueness",
   crs: { type: "name", properties: { name: "urn:ogc:def:crs:OGC:1.3:CRS84" } },
   features: [
     {
       type: "Feature",
-      properties: { hex_id: "HEX-3066", value: 2.7801122504633593 },
+      properties: {
+        hex_id: "HEX-3066",
+        uniqueness: -0.039858378869465284,
+        diversity: 2.7801122504633593,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -23,7 +27,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-3350", value: 3.5268478951552114 },
+      properties: {
+        hex_id: "HEX-3350",
+        uniqueness: -1.1377695606130129,
+        diversity: 3.5268478951552114,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -41,7 +49,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-3398", value: 2.9183737464514063 },
+      properties: {
+        hex_id: "HEX-3398",
+        uniqueness: -0.28632404765449077,
+        diversity: 2.9183737464514063,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -59,7 +71,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-3402", value: 2.6179971219380294 },
+      properties: {
+        hex_id: "HEX-3402",
+        uniqueness: 1.3023833916879608,
+        diversity: 2.6179971219380294,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -77,7 +93,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-3443", value: 3.4732347056212025 },
+      properties: {
+        hex_id: "HEX-3443",
+        uniqueness: -0.96980774106207368,
+        diversity: 3.4732347056212025,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -95,7 +115,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-3589", value: 3.1924458486541942 },
+      properties: {
+        hex_id: "HEX-3589",
+        uniqueness: -0.49130117309093052,
+        diversity: 3.1924458486541942,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -113,7 +137,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-3635", value: 3.2590860452785662 },
+      properties: {
+        hex_id: "HEX-3635",
+        uniqueness: -0.46753693434052745,
+        diversity: 3.2590860452785662,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -131,7 +159,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-3636", value: 2.7166509654458073 },
+      properties: {
+        hex_id: "HEX-3636",
+        uniqueness: 1.2933344006638112,
+        diversity: 2.7166509654458073,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -149,7 +181,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-3680", value: 3.2218654134307165 },
+      properties: {
+        hex_id: "HEX-3680",
+        uniqueness: 0.16487276702578096,
+        diversity: 3.2218654134307165,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -167,7 +203,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-3682", value: 3.2752527742341035 },
+      properties: {
+        hex_id: "HEX-3682",
+        uniqueness: -0.78654021505657301,
+        diversity: 3.2752527742341035,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -185,7 +225,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-3730", value: 3.1566783460324181 },
+      properties: {
+        hex_id: "HEX-3730",
+        uniqueness: 0.81151425381366993,
+        diversity: 3.1566783460324181,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -203,7 +247,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-3826", value: 3.3143277456677498 },
+      properties: {
+        hex_id: "HEX-3826",
+        uniqueness: -0.90291984002716774,
+        diversity: 3.3143277456677498,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -221,7 +269,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-3873", value: 3.6189113937329691 },
+      properties: {
+        hex_id: "HEX-3873",
+        uniqueness: -1.5892922490385686,
+        diversity: 3.6189113937329691,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -239,7 +291,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-3874", value: 3.440103925854141 },
+      properties: {
+        hex_id: "HEX-3874",
+        uniqueness: -1.1638829853812263,
+        diversity: 3.440103925854141,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -257,7 +313,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-3922", value: 3.3254224542140292 },
+      properties: {
+        hex_id: "HEX-3922",
+        uniqueness: -0.80654342638338472,
+        diversity: 3.3254224542140292,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -275,7 +335,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-3969", value: 3.3097428746704005 },
+      properties: {
+        hex_id: "HEX-3969",
+        uniqueness: -0.10830910065821389,
+        diversity: 3.3097428746704005,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -293,7 +357,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4017", value: 2.702007640078532 },
+      properties: {
+        hex_id: "HEX-4017",
+        uniqueness: 0.15771412772975313,
+        diversity: 2.702007640078532,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -311,7 +379,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4064", value: 3.3602121208692521 },
+      properties: {
+        hex_id: "HEX-4064",
+        uniqueness: -0.72279148208787947,
+        diversity: 3.3602121208692521,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -329,7 +401,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4111", value: 3.1627997108791503 },
+      properties: {
+        hex_id: "HEX-4111",
+        uniqueness: 0.24117027658663343,
+        diversity: 3.1627997108791503,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -347,7 +423,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4123", value: 2.9625173843680823 },
+      properties: {
+        hex_id: "HEX-4123",
+        uniqueness: 2.0685175165858101,
+        diversity: 2.9625173843680823,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -365,7 +445,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4158", value: 2.9914394977880283 },
+      properties: {
+        hex_id: "HEX-4158",
+        uniqueness: -0.076133557597799911,
+        diversity: 2.9914394977880283,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -383,7 +467,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4171", value: 3.3334267887111917 },
+      properties: {
+        hex_id: "HEX-4171",
+        uniqueness: -0.7070120989068982,
+        diversity: 3.3334267887111917,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -401,7 +489,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4206", value: 3.4622617549222339 },
+      properties: {
+        hex_id: "HEX-4206",
+        uniqueness: -1.2895286730368027,
+        diversity: 3.4622617549222339,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -419,7 +511,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4252", value: 3.1349148287460489 },
+      properties: {
+        hex_id: "HEX-4252",
+        uniqueness: 0.43695113716946909,
+        diversity: 3.1349148287460489,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -437,7 +533,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4298", value: 2.0796568608844561 },
+      properties: {
+        hex_id: "HEX-4298",
+        uniqueness: 2.6416420000675838,
+        diversity: 2.0796568608844561,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -455,7 +555,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4300", value: 2.9969069047514232 },
+      properties: {
+        hex_id: "HEX-4300",
+        uniqueness: 1.2450820997975549,
+        diversity: 2.9969069047514232,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -473,7 +577,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4301", value: 3.3332737681306477 },
+      properties: {
+        hex_id: "HEX-4301",
+        uniqueness: -0.71623951416446563,
+        diversity: 3.3332737681306477,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -491,7 +599,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4346", value: 3.5012750851729981 },
+      properties: {
+        hex_id: "HEX-4346",
+        uniqueness: -0.50955949280370572,
+        diversity: 3.5012750851729981,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -509,7 +621,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4347", value: 3.4693225334055735 },
+      properties: {
+        hex_id: "HEX-4347",
+        uniqueness: -0.91269815226174777,
+        diversity: 3.4693225334055735,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -527,7 +643,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4348", value: 3.2541435182900793 },
+      properties: {
+        hex_id: "HEX-4348",
+        uniqueness: -0.94739235636052599,
+        diversity: 3.2541435182900793,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -545,7 +665,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4349", value: 3.1173777945856544 },
+      properties: {
+        hex_id: "HEX-4349",
+        uniqueness: -0.5890815107135875,
+        diversity: 3.1173777945856544,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -563,7 +687,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4394", value: 2.9729223244578513 },
+      properties: {
+        hex_id: "HEX-4394",
+        uniqueness: 0.31335208436185502,
+        diversity: 2.9729223244578513,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -581,7 +709,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4395", value: 3.2863427272390049 },
+      properties: {
+        hex_id: "HEX-4395",
+        uniqueness: -0.89308857250233187,
+        diversity: 3.2863427272390049,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -599,7 +731,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4396", value: 3.6405835528808081 },
+      properties: {
+        hex_id: "HEX-4396",
+        uniqueness: -0.88935982825957571,
+        diversity: 3.6405835528808081,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -617,7 +753,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4402", value: 3.2867856568480622 },
+      properties: {
+        hex_id: "HEX-4402",
+        uniqueness: -1.2644155076721932,
+        diversity: 3.2867856568480622,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -635,7 +775,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4440", value: 3.1657196717515004 },
+      properties: {
+        hex_id: "HEX-4440",
+        uniqueness: -1.0878134448660393,
+        diversity: 3.1657196717515004,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -653,7 +797,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4442", value: 3.2727401350161722 },
+      properties: {
+        hex_id: "HEX-4442",
+        uniqueness: -0.5594535050122621,
+        diversity: 3.2727401350161722,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -671,7 +819,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4444", value: 2.4470069672403301 },
+      properties: {
+        hex_id: "HEX-4444",
+        uniqueness: 0.70929272112808806,
+        diversity: 2.4470069672403301,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -689,7 +841,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4489", value: 3.1781863055454718 },
+      properties: {
+        hex_id: "HEX-4489",
+        uniqueness: -0.80150190832641555,
+        diversity: 3.1781863055454718,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -707,7 +863,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4491", value: 3.1731770152019085 },
+      properties: {
+        hex_id: "HEX-4491",
+        uniqueness: 0.22633525254226389,
+        diversity: 3.1731770152019085,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -725,7 +885,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4495", value: 3.267284921589896 },
+      properties: {
+        hex_id: "HEX-4495",
+        uniqueness: -0.49840167454163564,
+        diversity: 3.267284921589896,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -743,7 +907,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4496", value: 3.4135648055688992 },
+      properties: {
+        hex_id: "HEX-4496",
+        uniqueness: -1.1616095551173593,
+        diversity: 3.4135648055688992,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -761,7 +929,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4535", value: 3.3956246219672708 },
+      properties: {
+        hex_id: "HEX-4535",
+        uniqueness: -0.87038243290639972,
+        diversity: 3.3956246219672708,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -779,7 +951,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4537", value: 2.8280617807862876 },
+      properties: {
+        hex_id: "HEX-4537",
+        uniqueness: 0.70167517148583536,
+        diversity: 2.8280617807862876,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -797,7 +973,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4538", value: 3.283507719792504 },
+      properties: {
+        hex_id: "HEX-4538",
+        uniqueness: -0.0025939948828202358,
+        diversity: 3.283507719792504,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -815,7 +995,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4541", value: 3.3987744017049368 },
+      properties: {
+        hex_id: "HEX-4541",
+        uniqueness: -0.97591020362686964,
+        diversity: 3.3987744017049368,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -833,7 +1017,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4545", value: 3.303602256599619 },
+      properties: {
+        hex_id: "HEX-4545",
+        uniqueness: -1.1185433835799938,
+        diversity: 3.303602256599619,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -851,7 +1039,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4584", value: 3.0271581268339696 },
+      properties: {
+        hex_id: "HEX-4584",
+        uniqueness: -0.11652065281310504,
+        diversity: 3.0271581268339696,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -869,7 +1061,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4587", value: 3.4173328732532475 },
+      properties: {
+        hex_id: "HEX-4587",
+        uniqueness: -1.1039152173715336,
+        diversity: 3.4173328732532475,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -887,7 +1083,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4593", value: 3.17890513141902 },
+      properties: {
+        hex_id: "HEX-4593",
+        uniqueness: -0.47794661312971587,
+        diversity: 3.17890513141902,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -905,7 +1105,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4630", value: 3.1406641729976847 },
+      properties: {
+        hex_id: "HEX-4630",
+        uniqueness: -0.059810508264423738,
+        diversity: 3.1406641729976847,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -923,7 +1127,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4631", value: 3.2645313039567401 },
+      properties: {
+        hex_id: "HEX-4631",
+        uniqueness: -0.42622993299290651,
+        diversity: 3.2645313039567401,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -941,7 +1149,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4635", value: 3.4380776698041466 },
+      properties: {
+        hex_id: "HEX-4635",
+        uniqueness: -0.7665082445696999,
+        diversity: 3.4380776698041466,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -959,7 +1171,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4637", value: 2.9909757472156531 },
+      properties: {
+        hex_id: "HEX-4637",
+        uniqueness: -0.31085106429335274,
+        diversity: 2.9909757472156531,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -977,7 +1193,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4638", value: 3.0339532578983825 },
+      properties: {
+        hex_id: "HEX-4638",
+        uniqueness: 0.55161920858691593,
+        diversity: 3.0339532578983825,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -995,7 +1215,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4680", value: 3.1673939932104189 },
+      properties: {
+        hex_id: "HEX-4680",
+        uniqueness: -0.19922107890726604,
+        diversity: 3.1673939932104189,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1013,7 +1237,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4685", value: 3.4461982883546356 },
+      properties: {
+        hex_id: "HEX-4685",
+        uniqueness: -0.26509115013929252,
+        diversity: 3.4461982883546356,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1031,7 +1259,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4725", value: 2.9813819821496583 },
+      properties: {
+        hex_id: "HEX-4725",
+        uniqueness: 0.7575757120739629,
+        diversity: 2.9813819821496583,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1049,7 +1281,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4729", value: 3.1503758434377747 },
+      properties: {
+        hex_id: "HEX-4729",
+        uniqueness: 1.0801399475228157,
+        diversity: 3.1503758434377747,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1067,7 +1303,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4771", value: 3.3111649550583881 },
+      properties: {
+        hex_id: "HEX-4771",
+        uniqueness: -0.62393326192926968,
+        diversity: 3.3111649550583881,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1085,7 +1325,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4772", value: 2.6969894650508257 },
+      properties: {
+        hex_id: "HEX-4772",
+        uniqueness: 1.4662073314036668,
+        diversity: 2.6969894650508257,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1103,7 +1347,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4775", value: 3.1066311179480079 },
+      properties: {
+        hex_id: "HEX-4775",
+        uniqueness: 0.29230590892353564,
+        diversity: 3.1066311179480079,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1121,7 +1369,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4780", value: 3.1983141467615512 },
+      properties: {
+        hex_id: "HEX-4780",
+        uniqueness: -0.91282345845044954,
+        diversity: 3.1983141467615512,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1139,7 +1391,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4786", value: 2.7136008790381387 },
+      properties: {
+        hex_id: "HEX-4786",
+        uniqueness: 1.0495376428892054,
+        diversity: 2.7136008790381387,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1157,7 +1413,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4818", value: 2.8703205827518752 },
+      properties: {
+        hex_id: "HEX-4818",
+        uniqueness: -0.037044456467344486,
+        diversity: 2.8703205827518752,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1175,7 +1435,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4819", value: 2.4608267180666408 },
+      properties: {
+        hex_id: "HEX-4819",
+        uniqueness: 0.65195178730990455,
+        diversity: 2.4608267180666408,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1193,7 +1457,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4824", value: 3.1679909447427286 },
+      properties: {
+        hex_id: "HEX-4824",
+        uniqueness: 0.64487566699551813,
+        diversity: 3.1679909447427286,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1211,7 +1479,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4825", value: 3.5612085538520915 },
+      properties: {
+        hex_id: "HEX-4825",
+        uniqueness: -0.65024885853224679,
+        diversity: 3.5612085538520915,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1229,7 +1501,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4827", value: 3.4895689682201514 },
+      properties: {
+        hex_id: "HEX-4827",
+        uniqueness: -1.1743636184768798,
+        diversity: 3.4895689682201514,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1247,7 +1523,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4828", value: 3.1792594244935426 },
+      properties: {
+        hex_id: "HEX-4828",
+        uniqueness: -0.68965635298851513,
+        diversity: 3.1792594244935426,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1265,7 +1545,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4866", value: 3.4048210888985833 },
+      properties: {
+        hex_id: "HEX-4866",
+        uniqueness: -1.3975770039530491,
+        diversity: 3.4048210888985833,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1283,7 +1567,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4873", value: 3.2838106102526963 },
+      properties: {
+        hex_id: "HEX-4873",
+        uniqueness: -0.79425647281733647,
+        diversity: 3.2838106102526963,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1301,7 +1589,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4875", value: 3.2690010429572887 },
+      properties: {
+        hex_id: "HEX-4875",
+        uniqueness: -0.45967014460401828,
+        diversity: 3.2690010429572887,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1319,7 +1611,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4881", value: 2.0902219170904308 },
+      properties: {
+        hex_id: "HEX-4881",
+        uniqueness: 2.5280748413424661,
+        diversity: 2.0902219170904308,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1337,7 +1633,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4913", value: 3.2454355371325554 },
+      properties: {
+        hex_id: "HEX-4913",
+        uniqueness: -0.78331782522997651,
+        diversity: 3.2454355371325554,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1355,7 +1655,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4914", value: 2.9379355909776992 },
+      properties: {
+        hex_id: "HEX-4914",
+        uniqueness: -0.067839973901943115,
+        diversity: 2.9379355909776992,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1373,7 +1677,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4915", value: 3.4207735762027811 },
+      properties: {
+        hex_id: "HEX-4915",
+        uniqueness: -1.2740892471652328,
+        diversity: 3.4207735762027811,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1391,7 +1699,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4920", value: 3.2805176242669964 },
+      properties: {
+        hex_id: "HEX-4920",
+        uniqueness: -0.85227391090372195,
+        diversity: 3.2805176242669964,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1409,7 +1721,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4923", value: 3.5453004026754376 },
+      properties: {
+        hex_id: "HEX-4923",
+        uniqueness: -0.84106241062435594,
+        diversity: 3.5453004026754376,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1427,7 +1743,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4929", value: 3.1431474420509034 },
+      properties: {
+        hex_id: "HEX-4929",
+        uniqueness: -0.70739067617943718,
+        diversity: 3.1431474420509034,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1445,7 +1765,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4960", value: 3.0865489840263427 },
+      properties: {
+        hex_id: "HEX-4960",
+        uniqueness: -0.406748518482694,
+        diversity: 3.0865489840263427,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1463,7 +1787,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4961", value: 3.0860040240762627 },
+      properties: {
+        hex_id: "HEX-4961",
+        uniqueness: 0.15335236243090183,
+        diversity: 3.0860040240762627,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1481,7 +1809,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4962", value: 3.11115336898043 },
+      properties: {
+        hex_id: "HEX-4962",
+        uniqueness: -0.67860167022477003,
+        diversity: 3.11115336898043,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1499,7 +1831,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4965", value: 3.4261164170205927 },
+      properties: {
+        hex_id: "HEX-4965",
+        uniqueness: -0.5723338417158027,
+        diversity: 3.4261164170205927,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1517,7 +1853,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4967", value: 2.6796985784528022 },
+      properties: {
+        hex_id: "HEX-4967",
+        uniqueness: 2.3730458711707336,
+        diversity: 2.6796985784528022,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1535,7 +1875,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4968", value: 3.3430692400945281 },
+      properties: {
+        hex_id: "HEX-4968",
+        uniqueness: 0.081669080279768005,
+        diversity: 3.3430692400945281,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1553,7 +1897,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4969", value: 3.0690806877959038 },
+      properties: {
+        hex_id: "HEX-4969",
+        uniqueness: -0.039491083544501933,
+        diversity: 3.0690806877959038,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1571,7 +1919,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-4978", value: 3.1515853093058595 },
+      properties: {
+        hex_id: "HEX-4978",
+        uniqueness: -0.62274899479723556,
+        diversity: 3.1515853093058595,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1589,7 +1941,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5008", value: 2.4268837384407842 },
+      properties: {
+        hex_id: "HEX-5008",
+        uniqueness: 2.0025156623608535,
+        diversity: 2.4268837384407842,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1607,7 +1963,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5009", value: 3.2374603197207912 },
+      properties: {
+        hex_id: "HEX-5009",
+        uniqueness: -0.45229008794702635,
+        diversity: 3.2374603197207912,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1625,7 +1985,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5010", value: 3.3735115775169584 },
+      properties: {
+        hex_id: "HEX-5010",
+        uniqueness: -1.4784675671377328,
+        diversity: 3.3735115775169584,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1643,7 +2007,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5013", value: 3.599528739405641 },
+      properties: {
+        hex_id: "HEX-5013",
+        uniqueness: -1.3430231847447089,
+        diversity: 3.599528739405641,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1661,7 +2029,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5019", value: 1.7214392200239761 },
+      properties: {
+        hex_id: "HEX-5019",
+        uniqueness: 4.2661592631261973,
+        diversity: 1.7214392200239761,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1679,7 +2051,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5024", value: 3.0592357953476563 },
+      properties: {
+        hex_id: "HEX-5024",
+        uniqueness: 0.41439947254976761,
+        diversity: 3.0592357953476563,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1697,7 +2073,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5054", value: 3.0076733172667733 },
+      properties: {
+        hex_id: "HEX-5054",
+        uniqueness: -0.46448044382783632,
+        diversity: 3.0076733172667733,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1715,7 +2095,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5055", value: 2.7711524647398909 },
+      properties: {
+        hex_id: "HEX-5055",
+        uniqueness: 1.3681599780506497,
+        diversity: 2.7711524647398909,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1733,7 +2117,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5056", value: 2.3700476663440213 },
+      properties: {
+        hex_id: "HEX-5056",
+        uniqueness: 1.705323135334716,
+        diversity: 2.3700476663440213,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1751,7 +2139,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5057", value: 3.2171185638263236 },
+      properties: {
+        hex_id: "HEX-5057",
+        uniqueness: -0.38956119536726863,
+        diversity: 3.2171185638263236,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1769,7 +2161,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5058", value: 3.153352268613939 },
+      properties: {
+        hex_id: "HEX-5058",
+        uniqueness: 0.14462263068628103,
+        diversity: 3.153352268613939,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1787,7 +2183,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5060", value: 3.3785374908304902 },
+      properties: {
+        hex_id: "HEX-5060",
+        uniqueness: -0.35857883431048954,
+        diversity: 3.3785374908304902,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1805,7 +2205,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5065", value: 2.6363683163330229 },
+      properties: {
+        hex_id: "HEX-5065",
+        uniqueness: 1.6290229220437487,
+        diversity: 2.6363683163330229,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1823,7 +2227,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5104", value: 2.9010507628018454 },
+      properties: {
+        hex_id: "HEX-5104",
+        uniqueness: 0.75519185315022053,
+        diversity: 2.9010507628018454,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1841,7 +2249,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5105", value: 3.0579545386362321 },
+      properties: {
+        hex_id: "HEX-5105",
+        uniqueness: -0.32275830859472776,
+        diversity: 3.0579545386362321,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1859,7 +2271,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5106", value: 3.1027440821683792 },
+      properties: {
+        hex_id: "HEX-5106",
+        uniqueness: -0.80259747445673446,
+        diversity: 3.1027440821683792,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1877,7 +2293,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5108", value: 3.149517676446103 },
+      properties: {
+        hex_id: "HEX-5108",
+        uniqueness: -0.69267875623783171,
+        diversity: 3.149517676446103,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1895,7 +2315,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5119", value: 3.2074728108234476 },
+      properties: {
+        hex_id: "HEX-5119",
+        uniqueness: 0.84956039870951283,
+        diversity: 3.2074728108234476,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1913,7 +2337,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5121", value: 3.4070467222500196 },
+      properties: {
+        hex_id: "HEX-5121",
+        uniqueness: 0.039859401116320615,
+        diversity: 3.4070467222500196,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1931,7 +2359,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5150", value: 2.6756361941616351 },
+      properties: {
+        hex_id: "HEX-5150",
+        uniqueness: 1.1066340585506671,
+        diversity: 2.6756361941616351,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1949,7 +2381,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5152", value: 3.5400375049455466 },
+      properties: {
+        hex_id: "HEX-5152",
+        uniqueness: -0.97560961623986797,
+        diversity: 3.5400375049455466,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1967,7 +2403,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5155", value: 3.3750768353097325 },
+      properties: {
+        hex_id: "HEX-5155",
+        uniqueness: -0.59218966640646686,
+        diversity: 3.3750768353097325,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -1985,7 +2425,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5167", value: 3.4818319629084722 },
+      properties: {
+        hex_id: "HEX-5167",
+        uniqueness: -0.26137433069381777,
+        diversity: 3.4818319629084722,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2003,7 +2447,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5168", value: 3.2882113680798586 },
+      properties: {
+        hex_id: "HEX-5168",
+        uniqueness: -1.0278534164281961,
+        diversity: 3.2882113680798586,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2021,7 +2469,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5196", value: 3.348702385017575 },
+      properties: {
+        hex_id: "HEX-5196",
+        uniqueness: -0.98009963478003015,
+        diversity: 3.348702385017575,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2039,7 +2491,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5197", value: 2.8247945430380912 },
+      properties: {
+        hex_id: "HEX-5197",
+        uniqueness: 1.2070280541975829,
+        diversity: 2.8247945430380912,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2057,7 +2513,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5198", value: 3.3569141171403967 },
+      properties: {
+        hex_id: "HEX-5198",
+        uniqueness: -1.1962695944167203,
+        diversity: 3.3569141171403967,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2075,7 +2535,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5200", value: 3.314746937603982 },
+      properties: {
+        hex_id: "HEX-5200",
+        uniqueness: 0.21511054022460596,
+        diversity: 3.314746937603982,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2093,7 +2557,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5202", value: 3.4284556946487132 },
+      properties: {
+        hex_id: "HEX-5202",
+        uniqueness: -0.34758371943805977,
+        diversity: 3.4284556946487132,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2111,7 +2579,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5214", value: 3.2721513621389122 },
+      properties: {
+        hex_id: "HEX-5214",
+        uniqueness: -0.66727928106981671,
+        diversity: 3.2721513621389122,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2129,7 +2601,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5215", value: 3.3496926132552964 },
+      properties: {
+        hex_id: "HEX-5215",
+        uniqueness: -0.70864144327905176,
+        diversity: 3.3496926132552964,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2147,7 +2623,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5217", value: 2.9790749592744157 },
+      properties: {
+        hex_id: "HEX-5217",
+        uniqueness: -0.042212234260372281,
+        diversity: 2.9790749592744157,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2165,7 +2645,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5243", value: 3.3602412345183379 },
+      properties: {
+        hex_id: "HEX-5243",
+        uniqueness: -0.15162449874780826,
+        diversity: 3.3602412345183379,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2183,7 +2667,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5250", value: 3.3130831420573559 },
+      properties: {
+        hex_id: "HEX-5250",
+        uniqueness: 0.75774746108947533,
+        diversity: 3.3130831420573559,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2201,7 +2689,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5262", value: 3.1826233644581463 },
+      properties: {
+        hex_id: "HEX-5262",
+        uniqueness: -0.96142236147219817,
+        diversity: 3.1826233644581463,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2219,7 +2711,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5290", value: 3.4718688541278051 },
+      properties: {
+        hex_id: "HEX-5290",
+        uniqueness: -0.91843171886854069,
+        diversity: 3.4718688541278051,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2237,7 +2733,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5291", value: 3.337446461250464 },
+      properties: {
+        hex_id: "HEX-5291",
+        uniqueness: -0.73850695831287427,
+        diversity: 3.337446461250464,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2255,7 +2755,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5292", value: 3.4252087449198676 },
+      properties: {
+        hex_id: "HEX-5292",
+        uniqueness: -1.0664786955085372,
+        diversity: 3.4252087449198676,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2273,7 +2777,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5293", value: 3.1920413733683008 },
+      properties: {
+        hex_id: "HEX-5293",
+        uniqueness: 0.32417966385284896,
+        diversity: 3.1920413733683008,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2291,7 +2799,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5295", value: 3.272875154051416 },
+      properties: {
+        hex_id: "HEX-5295",
+        uniqueness: 0.19640435010927779,
+        diversity: 3.272875154051416,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2309,7 +2821,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5297", value: 3.5473829049732144 },
+      properties: {
+        hex_id: "HEX-5297",
+        uniqueness: -0.98314606094348456,
+        diversity: 3.5473829049732144,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2327,7 +2843,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5310", value: 2.8009995028135433 },
+      properties: {
+        hex_id: "HEX-5310",
+        uniqueness: 0.76335689399585671,
+        diversity: 2.8009995028135433,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2345,7 +2865,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5339", value: 3.1075249182667832 },
+      properties: {
+        hex_id: "HEX-5339",
+        uniqueness: 0.24408372322269206,
+        diversity: 3.1075249182667832,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2363,7 +2887,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5340", value: 3.5892917778237901 },
+      properties: {
+        hex_id: "HEX-5340",
+        uniqueness: -1.0830621975339718,
+        diversity: 3.5892917778237901,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2381,7 +2909,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5341", value: 3.3993136699100148 },
+      properties: {
+        hex_id: "HEX-5341",
+        uniqueness: -1.0271610952647892,
+        diversity: 3.3993136699100148,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2399,7 +2931,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5357", value: 3.5433983666606204 },
+      properties: {
+        hex_id: "HEX-5357",
+        uniqueness: -0.45315551301598911,
+        diversity: 3.5433983666606204,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2417,7 +2953,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5358", value: 3.1075008516925804 },
+      properties: {
+        hex_id: "HEX-5358",
+        uniqueness: 0.54688890733957451,
+        diversity: 3.1075008516925804,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2435,7 +2975,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5385", value: 3.0983745882666818 },
+      properties: {
+        hex_id: "HEX-5385",
+        uniqueness: 0.0045446908618126296,
+        diversity: 3.0983745882666818,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2453,7 +2997,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5386", value: 3.3479731268800945 },
+      properties: {
+        hex_id: "HEX-5386",
+        uniqueness: 0.086409408297497714,
+        diversity: 3.3479731268800945,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2471,7 +3019,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5387", value: 3.2546217747786383 },
+      properties: {
+        hex_id: "HEX-5387",
+        uniqueness: -0.51393911519426305,
+        diversity: 3.2546217747786383,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2489,7 +3041,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5388", value: 3.3039463500030855 },
+      properties: {
+        hex_id: "HEX-5388",
+        uniqueness: -0.33039827179370457,
+        diversity: 3.3039463500030855,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2507,7 +3063,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5389", value: 3.05659244024802 },
+      properties: {
+        hex_id: "HEX-5389",
+        uniqueness: -0.29379122597555629,
+        diversity: 3.05659244024802,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2525,7 +3085,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5392", value: 3.2409695090349615 },
+      properties: {
+        hex_id: "HEX-5392",
+        uniqueness: -0.45274576981925524,
+        diversity: 3.2409695090349615,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2543,7 +3107,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5405", value: 2.9035054312665265 },
+      properties: {
+        hex_id: "HEX-5405",
+        uniqueness: 0.050998923907757704,
+        diversity: 2.9035054312665265,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2561,7 +3129,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5432", value: 3.2117845309402715 },
+      properties: {
+        hex_id: "HEX-5432",
+        uniqueness: 0.32126973324343489,
+        diversity: 3.2117845309402715,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2579,7 +3151,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5434", value: 3.3635273811782973 },
+      properties: {
+        hex_id: "HEX-5434",
+        uniqueness: -1.0702441654400483,
+        diversity: 3.3635273811782973,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2597,7 +3173,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5435", value: 3.3125555294179931 },
+      properties: {
+        hex_id: "HEX-5435",
+        uniqueness: 0.1690950290181551,
+        diversity: 3.3125555294179931,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2615,7 +3195,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5436", value: 3.1208753885184843 },
+      properties: {
+        hex_id: "HEX-5436",
+        uniqueness: -0.356946195063231,
+        diversity: 3.1208753885184843,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2633,7 +3217,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5439", value: 3.2981600601087449 },
+      properties: {
+        hex_id: "HEX-5439",
+        uniqueness: -0.87986617760666763,
+        diversity: 3.2981600601087449,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2651,7 +3239,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5482", value: 2.5529366762763139 },
+      properties: {
+        hex_id: "HEX-5482",
+        uniqueness: 1.467717410508401,
+        diversity: 2.5529366762763139,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2669,7 +3261,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5484", value: 3.404232555791606 },
+      properties: {
+        hex_id: "HEX-5484",
+        uniqueness: 0.069958388475284308,
+        diversity: 3.404232555791606,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2687,7 +3283,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5487", value: 3.2402509755496833 },
+      properties: {
+        hex_id: "HEX-5487",
+        uniqueness: 0.019926702585807182,
+        diversity: 3.2402509755496833,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2705,7 +3305,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5499", value: 3.3806041728954139 },
+      properties: {
+        hex_id: "HEX-5499",
+        uniqueness: 0.26325005800612583,
+        diversity: 3.3806041728954139,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2723,7 +3327,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5500", value: 3.150906175793883 },
+      properties: {
+        hex_id: "HEX-5500",
+        uniqueness: 0.070908111788893002,
+        diversity: 3.150906175793883,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2741,7 +3349,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5527", value: 3.5424442119885029 },
+      properties: {
+        hex_id: "HEX-5527",
+        uniqueness: -1.3195737466227451,
+        diversity: 3.5424442119885029,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2759,7 +3371,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5529", value: 2.9053966059824394 },
+      properties: {
+        hex_id: "HEX-5529",
+        uniqueness: 0.44800651822951737,
+        diversity: 2.9053966059824394,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2777,7 +3393,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5531", value: 3.2504733347610739 },
+      properties: {
+        hex_id: "HEX-5531",
+        uniqueness: -0.94831687363000905,
+        diversity: 3.2504733347610739,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2795,7 +3415,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5534", value: 3.2134017019454886 },
+      properties: {
+        hex_id: "HEX-5534",
+        uniqueness: -0.16677486377001069,
+        diversity: 3.2134017019454886,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2813,7 +3437,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5577", value: 3.4233081270248631 },
+      properties: {
+        hex_id: "HEX-5577",
+        uniqueness: -0.72051964840130744,
+        diversity: 3.4233081270248631,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2831,7 +3459,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5578", value: 3.2204580897607196 },
+      properties: {
+        hex_id: "HEX-5578",
+        uniqueness: -0.19107098452127363,
+        diversity: 3.2204580897607196,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2849,7 +3481,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5579", value: 3.3509659324738199 },
+      properties: {
+        hex_id: "HEX-5579",
+        uniqueness: -0.11739947620013,
+        diversity: 3.3509659324738199,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2867,7 +3503,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5594", value: 3.088845989014112 },
+      properties: {
+        hex_id: "HEX-5594",
+        uniqueness: 0.89098596182284306,
+        diversity: 3.088845989014112,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2885,7 +3525,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5625", value: 3.4258514736632195 },
+      properties: {
+        hex_id: "HEX-5625",
+        uniqueness: -1.0342395867808387,
+        diversity: 3.4258514736632195,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2903,7 +3547,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5626", value: 3.0286556207581836 },
+      properties: {
+        hex_id: "HEX-5626",
+        uniqueness: -0.46520597561504279,
+        diversity: 3.0286556207581836,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2921,7 +3569,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5629", value: 3.4506450533572446 },
+      properties: {
+        hex_id: "HEX-5629",
+        uniqueness: -0.13554275329810975,
+        diversity: 3.4506450533572446,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2939,7 +3591,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5643", value: 3.1920429008926225 },
+      properties: {
+        hex_id: "HEX-5643",
+        uniqueness: -0.87882664532522803,
+        diversity: 3.1920429008926225,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2957,7 +3613,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5670", value: 3.4262387024647145 },
+      properties: {
+        hex_id: "HEX-5670",
+        uniqueness: 0.16693292722849454,
+        diversity: 3.4262387024647145,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2975,7 +3635,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5671", value: 3.0180491398859894 },
+      properties: {
+        hex_id: "HEX-5671",
+        uniqueness: 0.066677483884540631,
+        diversity: 3.0180491398859894,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -2993,7 +3657,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5672", value: 3.5160608663441035 },
+      properties: {
+        hex_id: "HEX-5672",
+        uniqueness: -1.1598935493177982,
+        diversity: 3.5160608663441035,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3011,7 +3679,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5673", value: 3.1700920797851606 },
+      properties: {
+        hex_id: "HEX-5673",
+        uniqueness: 0.39026457478919258,
+        diversity: 3.1700920797851606,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3029,7 +3701,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5674", value: 3.2301514564935547 },
+      properties: {
+        hex_id: "HEX-5674",
+        uniqueness: 0.54930374864597598,
+        diversity: 3.2301514564935547,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3047,7 +3723,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5690", value: 2.1180917820588752 },
+      properties: {
+        hex_id: "HEX-5690",
+        uniqueness: 2.9813247698255814,
+        diversity: 2.1180917820588752,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3065,7 +3745,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5717", value: 2.0501776904923905 },
+      properties: {
+        hex_id: "HEX-5717",
+        uniqueness: 3.6340263168749281,
+        diversity: 2.0501776904923905,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3083,7 +3767,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5719", value: 3.2640845814432073 },
+      properties: {
+        hex_id: "HEX-5719",
+        uniqueness: -0.8735129360926519,
+        diversity: 3.2640845814432073,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3101,7 +3789,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5720", value: 3.1753855910447415 },
+      properties: {
+        hex_id: "HEX-5720",
+        uniqueness: -0.085014642330805593,
+        diversity: 3.1753855910447415,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3119,7 +3811,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5722", value: 3.1511449618853073 },
+      properties: {
+        hex_id: "HEX-5722",
+        uniqueness: -0.75866518989943044,
+        diversity: 3.1511449618853073,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3137,7 +3833,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5724", value: 3.4139201202276177 },
+      properties: {
+        hex_id: "HEX-5724",
+        uniqueness: -1.3752222016068896,
+        diversity: 3.4139201202276177,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3155,7 +3855,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5766", value: 3.5377855352780756 },
+      properties: {
+        hex_id: "HEX-5766",
+        uniqueness: -1.175457181526532,
+        diversity: 3.5377855352780756,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3173,7 +3877,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5770", value: 3.2848598809371303 },
+      properties: {
+        hex_id: "HEX-5770",
+        uniqueness: -1.0899925681006968,
+        diversity: 3.2848598809371303,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3191,7 +3899,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5786", value: 3.4708970955433522 },
+      properties: {
+        hex_id: "HEX-5786",
+        uniqueness: -0.39708207728303724,
+        diversity: 3.4708970955433522,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3209,7 +3921,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5812", value: 2.6412072941632556 },
+      properties: {
+        hex_id: "HEX-5812",
+        uniqueness: 3.2749730019869552,
+        diversity: 2.6412072941632556,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3227,7 +3943,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5813", value: 3.3547942259288899 },
+      properties: {
+        hex_id: "HEX-5813",
+        uniqueness: 0.1445538008962505,
+        diversity: 3.3547942259288899,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3245,7 +3965,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5814", value: 3.5455997248505113 },
+      properties: {
+        hex_id: "HEX-5814",
+        uniqueness: -0.43950994030331714,
+        diversity: 3.5455997248505113,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3263,7 +3987,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5816", value: 3.1545185920585546 },
+      properties: {
+        hex_id: "HEX-5816",
+        uniqueness: -0.34344567989989011,
+        diversity: 3.1545185920585546,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3281,7 +4009,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5818", value: 3.2016057399533531 },
+      properties: {
+        hex_id: "HEX-5818",
+        uniqueness: -0.48569510604666488,
+        diversity: 3.2016057399533531,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3299,7 +4031,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5834", value: 2.495848579625406 },
+      properties: {
+        hex_id: "HEX-5834",
+        uniqueness: 2.35837660739982,
+        diversity: 2.495848579625406,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3317,7 +4053,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5859", value: 3.2187731302385227 },
+      properties: {
+        hex_id: "HEX-5859",
+        uniqueness: 0.47000900821244423,
+        diversity: 3.2187731302385227,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3335,7 +4075,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5860", value: 3.4756814712395512 },
+      properties: {
+        hex_id: "HEX-5860",
+        uniqueness: -0.64407741061649892,
+        diversity: 3.4756814712395512,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3353,7 +4097,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5861", value: 3.2000228540600006 },
+      properties: {
+        hex_id: "HEX-5861",
+        uniqueness: -0.83131519184058666,
+        diversity: 3.2000228540600006,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3371,7 +4119,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5882", value: 3.2372567282636435 },
+      properties: {
+        hex_id: "HEX-5882",
+        uniqueness: -0.9537626672823124,
+        diversity: 3.2372567282636435,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3389,7 +4141,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5906", value: 3.2072581493110714 },
+      properties: {
+        hex_id: "HEX-5906",
+        uniqueness: -0.87062843097193288,
+        diversity: 3.2072581493110714,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3407,7 +4163,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5907", value: 3.4995251899647362 },
+      properties: {
+        hex_id: "HEX-5907",
+        uniqueness: -0.59190753221431391,
+        diversity: 3.4995251899647362,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3425,7 +4185,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5908", value: 3.2119851837598543 },
+      properties: {
+        hex_id: "HEX-5908",
+        uniqueness: 0.35166546510786906,
+        diversity: 3.2119851837598543,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3443,7 +4207,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5909", value: 3.3149804344554821 },
+      properties: {
+        hex_id: "HEX-5909",
+        uniqueness: -0.38042587585904297,
+        diversity: 3.3149804344554821,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3461,7 +4229,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5911", value: 3.1119654116449897 },
+      properties: {
+        hex_id: "HEX-5911",
+        uniqueness: -0.016686023942634406,
+        diversity: 3.1119654116449897,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3479,7 +4251,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5913", value: 2.3652165721063305 },
+      properties: {
+        hex_id: "HEX-5913",
+        uniqueness: 2.0927990444959992,
+        diversity: 2.3652165721063305,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3497,7 +4273,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5956", value: 3.1989705505134829 },
+      properties: {
+        hex_id: "HEX-5956",
+        uniqueness: -0.94219118329629914,
+        diversity: 3.1989705505134829,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3515,7 +4295,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5978", value: 3.3367092311816759 },
+      properties: {
+        hex_id: "HEX-5978",
+        uniqueness: -1.0628090601696156,
+        diversity: 3.3367092311816759,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3533,7 +4317,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-5999", value: 3.4177197177700815 },
+      properties: {
+        hex_id: "HEX-5999",
+        uniqueness: 0.51216470731428321,
+        diversity: 3.4177197177700815,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3551,7 +4339,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6002", value: 2.9473530806551853 },
+      properties: {
+        hex_id: "HEX-6002",
+        uniqueness: -0.47124701889901793,
+        diversity: 2.9473530806551853,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3569,7 +4361,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6003", value: 3.0766663300005055 },
+      properties: {
+        hex_id: "HEX-6003",
+        uniqueness: 0.05032600318096131,
+        diversity: 3.0766663300005055,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3587,7 +4383,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6005", value: 3.3286753488379097 },
+      properties: {
+        hex_id: "HEX-6005",
+        uniqueness: -0.66352531204417686,
+        diversity: 3.3286753488379097,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3605,7 +4405,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6006", value: 3.2323531468190252 },
+      properties: {
+        hex_id: "HEX-6006",
+        uniqueness: 0.28557778974332082,
+        diversity: 3.2323531468190252,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3623,7 +4427,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6008", value: 2.8688773195671806 },
+      properties: {
+        hex_id: "HEX-6008",
+        uniqueness: 0.88749470468677616,
+        diversity: 2.8688773195671806,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3641,7 +4449,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6018", value: 3.3065471342978641 },
+      properties: {
+        hex_id: "HEX-6018",
+        uniqueness: -1.1848619729671781,
+        diversity: 3.3065471342978641,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3659,7 +4471,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6047", value: 2.8006171466216507 },
+      properties: {
+        hex_id: "HEX-6047",
+        uniqueness: 1.9799715234760942,
+        diversity: 2.8006171466216507,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3677,7 +4493,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6048", value: 3.3834164093759487 },
+      properties: {
+        hex_id: "HEX-6048",
+        uniqueness: -0.51515311783504369,
+        diversity: 3.3834164093759487,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3695,7 +4515,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6049", value: 3.2452785322586122 },
+      properties: {
+        hex_id: "HEX-6049",
+        uniqueness: -0.15683624191379195,
+        diversity: 3.2452785322586122,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3713,7 +4537,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6050", value: 2.1588991994060311 },
+      properties: {
+        hex_id: "HEX-6050",
+        uniqueness: 2.8833914515192878,
+        diversity: 2.1588991994060311,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3731,7 +4559,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6051", value: 3.2911168420676105 },
+      properties: {
+        hex_id: "HEX-6051",
+        uniqueness: -0.91146057127393099,
+        diversity: 3.2911168420676105,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3749,7 +4581,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6053", value: 3.389183480601083 },
+      properties: {
+        hex_id: "HEX-6053",
+        uniqueness: 0.59996938526724197,
+        diversity: 3.389183480601083,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3767,7 +4603,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6065", value: 3.3075961459730112 },
+      properties: {
+        hex_id: "HEX-6065",
+        uniqueness: -0.41377928049313989,
+        diversity: 3.3075961459730112,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3785,7 +4625,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6094", value: 2.753690283949024 },
+      properties: {
+        hex_id: "HEX-6094",
+        uniqueness: 0.51951018800040194,
+        diversity: 2.753690283949024,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3803,7 +4647,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6098", value: 2.7507702371127016 },
+      properties: {
+        hex_id: "HEX-6098",
+        uniqueness: 0.2378247178261037,
+        diversity: 2.7507702371127016,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3821,7 +4669,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6101", value: 3.4826912764319302 },
+      properties: {
+        hex_id: "HEX-6101",
+        uniqueness: -1.1125321274040481,
+        diversity: 3.4826912764319302,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3839,7 +4691,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6144", value: 2.7485471832714929 },
+      properties: {
+        hex_id: "HEX-6144",
+        uniqueness: 0.24881127073142942,
+        diversity: 2.7485471832714929,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3857,7 +4713,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6145", value: 3.5720575938097068 },
+      properties: {
+        hex_id: "HEX-6145",
+        uniqueness: -1.1588109838808816,
+        diversity: 3.5720575938097068,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3875,7 +4735,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6146", value: 3.0286546688505411 },
+      properties: {
+        hex_id: "HEX-6146",
+        uniqueness: 0.44171329899425821,
+        diversity: 3.0286546688505411,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3893,7 +4757,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6148", value: 3.5327392206341628 },
+      properties: {
+        hex_id: "HEX-6148",
+        uniqueness: 0.043857066909117247,
+        diversity: 3.5327392206341628,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3911,7 +4779,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6164", value: 2.5637384161245302 },
+      properties: {
+        hex_id: "HEX-6164",
+        uniqueness: 1.5966737542710185,
+        diversity: 2.5637384161245302,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3929,7 +4801,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6189", value: 3.1246370295968853 },
+      properties: {
+        hex_id: "HEX-6189",
+        uniqueness: -0.83317978042437668,
+        diversity: 3.1246370295968853,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3947,7 +4823,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6193", value: 3.0377403031413475 },
+      properties: {
+        hex_id: "HEX-6193",
+        uniqueness: 0.51950875810262942,
+        diversity: 3.0377403031413475,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3965,7 +4845,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6194", value: 3.4023777196994125 },
+      properties: {
+        hex_id: "HEX-6194",
+        uniqueness: -0.87172604375953511,
+        diversity: 3.4023777196994125,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -3983,7 +4867,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6196", value: 3.5584742007751187 },
+      properties: {
+        hex_id: "HEX-6196",
+        uniqueness: 0.17977235028715674,
+        diversity: 3.5584742007751187,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4001,7 +4889,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6197", value: 3.1429112490209308 },
+      properties: {
+        hex_id: "HEX-6197",
+        uniqueness: 0.4205612496815021,
+        diversity: 3.1429112490209308,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4019,7 +4911,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6198", value: 3.4175731128094067 },
+      properties: {
+        hex_id: "HEX-6198",
+        uniqueness: -1.1421591589754656,
+        diversity: 3.4175731128094067,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4037,7 +4933,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6204", value: 3.1970793333216987 },
+      properties: {
+        hex_id: "HEX-6204",
+        uniqueness: -0.39055311092564615,
+        diversity: 3.1970793333216987,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4055,7 +4955,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6205", value: 3.074888061690443 },
+      properties: {
+        hex_id: "HEX-6205",
+        uniqueness: -0.55138443773965906,
+        diversity: 3.074888061690443,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4073,7 +4977,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6211", value: 2.9072954424685951 },
+      properties: {
+        hex_id: "HEX-6211",
+        uniqueness: 1.0788661541066502,
+        diversity: 2.9072954424685951,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4091,7 +4999,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6212", value: 2.66709509457616 },
+      properties: {
+        hex_id: "HEX-6212",
+        uniqueness: 0.45499554959449273,
+        diversity: 2.66709509457616,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4109,7 +5021,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6213", value: 2.6963599713552742 },
+      properties: {
+        hex_id: "HEX-6213",
+        uniqueness: 1.554693286045256,
+        diversity: 2.6963599713552742,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4127,7 +5043,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6239", value: 3.0292419401386144 },
+      properties: {
+        hex_id: "HEX-6239",
+        uniqueness: 0.25609859304110771,
+        diversity: 3.0292419401386144,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4145,7 +5065,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6240", value: 3.2739265104014739 },
+      properties: {
+        hex_id: "HEX-6240",
+        uniqueness: -0.4141010817594053,
+        diversity: 3.2739265104014739,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4163,7 +5087,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6241", value: 3.4748422962659054 },
+      properties: {
+        hex_id: "HEX-6241",
+        uniqueness: -1.1543581844455459,
+        diversity: 3.4748422962659054,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4181,7 +5109,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6242", value: 3.142162547235245 },
+      properties: {
+        hex_id: "HEX-6242",
+        uniqueness: 0.022167056286440587,
+        diversity: 3.142162547235245,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4199,7 +5131,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6243", value: 3.3118427237653396 },
+      properties: {
+        hex_id: "HEX-6243",
+        uniqueness: -0.40392767981630284,
+        diversity: 3.3118427237653396,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4217,7 +5153,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6244", value: 2.9863593415677987 },
+      properties: {
+        hex_id: "HEX-6244",
+        uniqueness: 0.58181832627247998,
+        diversity: 2.9863593415677987,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4235,7 +5175,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6245", value: 3.3834185135522663 },
+      properties: {
+        hex_id: "HEX-6245",
+        uniqueness: -0.16284355836709269,
+        diversity: 3.3834185135522663,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4253,7 +5197,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6250", value: 3.4709880156757236 },
+      properties: {
+        hex_id: "HEX-6250",
+        uniqueness: 0.18307211772988369,
+        diversity: 3.4709880156757236,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4271,7 +5219,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6252", value: 3.2744690247225425 },
+      properties: {
+        hex_id: "HEX-6252",
+        uniqueness: -0.75359074344508969,
+        diversity: 3.2744690247225425,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4289,7 +5241,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6257", value: 3.1991756776037041 },
+      properties: {
+        hex_id: "HEX-6257",
+        uniqueness: -0.45723219192878484,
+        diversity: 3.1991756776037041,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4307,7 +5263,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6259", value: 3.2880327733369157 },
+      properties: {
+        hex_id: "HEX-6259",
+        uniqueness: -0.089047488245179551,
+        diversity: 3.2880327733369157,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4325,7 +5285,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6260", value: 3.4676724363241886 },
+      properties: {
+        hex_id: "HEX-6260",
+        uniqueness: -1.2081978411159473,
+        diversity: 3.4676724363241886,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4343,7 +5307,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6287", value: 3.2840189032491689 },
+      properties: {
+        hex_id: "HEX-6287",
+        uniqueness: -0.92080279978448543,
+        diversity: 3.2840189032491689,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4361,7 +5329,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6288", value: 3.5305381128072311 },
+      properties: {
+        hex_id: "HEX-6288",
+        uniqueness: -0.55998856235823447,
+        diversity: 3.5305381128072311,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4379,7 +5351,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6291", value: 2.4959638880160782 },
+      properties: {
+        hex_id: "HEX-6291",
+        uniqueness: 2.0885932330299277,
+        diversity: 2.4959638880160782,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4397,7 +5373,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6297", value: 3.2483399245418654 },
+      properties: {
+        hex_id: "HEX-6297",
+        uniqueness: -0.33121120795642062,
+        diversity: 3.2483399245418654,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4415,7 +5395,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6304", value: 2.8193353437419728 },
+      properties: {
+        hex_id: "HEX-6304",
+        uniqueness: 0.64911444834882226,
+        diversity: 2.8193353437419728,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4433,7 +5417,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6305", value: 3.1463598345508967 },
+      properties: {
+        hex_id: "HEX-6305",
+        uniqueness: 0.67201938756746282,
+        diversity: 3.1463598345508967,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4451,7 +5439,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6306", value: 3.0524283037781919 },
+      properties: {
+        hex_id: "HEX-6306",
+        uniqueness: 0.86956779743211166,
+        diversity: 3.0524283037781919,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4469,7 +5461,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6336", value: 3.3686363147189629 },
+      properties: {
+        hex_id: "HEX-6336",
+        uniqueness: -0.18236891531608432,
+        diversity: 3.3686363147189629,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4487,7 +5483,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6337", value: 3.5813878090329974 },
+      properties: {
+        hex_id: "HEX-6337",
+        uniqueness: -1.0696059142538814,
+        diversity: 3.5813878090329974,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4505,7 +5505,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6338", value: 3.0728389202485809 },
+      properties: {
+        hex_id: "HEX-6338",
+        uniqueness: 0.97077605870212857,
+        diversity: 3.0728389202485809,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4523,7 +5527,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6339", value: 3.1590107619940762 },
+      properties: {
+        hex_id: "HEX-6339",
+        uniqueness: 0.35599978438747359,
+        diversity: 3.1590107619940762,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4541,7 +5549,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6340", value: 3.2963481659966707 },
+      properties: {
+        hex_id: "HEX-6340",
+        uniqueness: 0.074618940316649437,
+        diversity: 3.2963481659966707,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4559,7 +5571,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6354", value: 3.4313529847940436 },
+      properties: {
+        hex_id: "HEX-6354",
+        uniqueness: -1.0679071658433756,
+        diversity: 3.4313529847940436,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4577,7 +5593,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6382", value: 3.0341901698554601 },
+      properties: {
+        hex_id: "HEX-6382",
+        uniqueness: -0.35567115616222533,
+        diversity: 3.0341901698554601,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4595,7 +5615,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6383", value: 3.083940451266066 },
+      properties: {
+        hex_id: "HEX-6383",
+        uniqueness: -0.044013670098618833,
+        diversity: 3.083940451266066,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4613,7 +5637,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6384", value: 3.2568383214441505 },
+      properties: {
+        hex_id: "HEX-6384",
+        uniqueness: 0.83607019260731719,
+        diversity: 3.2568383214441505,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4631,7 +5659,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6385", value: 2.9136761425551008 },
+      properties: {
+        hex_id: "HEX-6385",
+        uniqueness: 0.59321291145951049,
+        diversity: 2.9136761425551008,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4649,7 +5681,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6387", value: 3.2420148958629786 },
+      properties: {
+        hex_id: "HEX-6387",
+        uniqueness: 0.11063685175844282,
+        diversity: 3.2420148958629786,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4667,7 +5703,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6392", value: 3.1610467945674556 },
+      properties: {
+        hex_id: "HEX-6392",
+        uniqueness: -0.53128314458470249,
+        diversity: 3.1610467945674556,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4685,7 +5725,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6393", value: 3.0366075186585566 },
+      properties: {
+        hex_id: "HEX-6393",
+        uniqueness: 0.6874225360083549,
+        diversity: 3.0366075186585566,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4703,7 +5747,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6394", value: 3.2261535838446846 },
+      properties: {
+        hex_id: "HEX-6394",
+        uniqueness: -0.94760126186606009,
+        diversity: 3.2261535838446846,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4721,7 +5769,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6395", value: 2.898727484376364 },
+      properties: {
+        hex_id: "HEX-6395",
+        uniqueness: -0.29365772797839113,
+        diversity: 2.898727484376364,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4739,7 +5791,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6400", value: 3.5411968622317525 },
+      properties: {
+        hex_id: "HEX-6400",
+        uniqueness: -1.6644305725778088,
+        diversity: 3.5411968622317525,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4757,7 +5813,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6401", value: 3.2633280286520976 },
+      properties: {
+        hex_id: "HEX-6401",
+        uniqueness: 0.010203242685210192,
+        diversity: 3.2633280286520976,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4775,7 +5835,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6402", value: 3.1042630229635932 },
+      properties: {
+        hex_id: "HEX-6402",
+        uniqueness: -0.5799348754235808,
+        diversity: 3.1042630229635932,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4793,7 +5857,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6431", value: 3.2961716228529534 },
+      properties: {
+        hex_id: "HEX-6431",
+        uniqueness: -0.5929692141023708,
+        diversity: 3.2961716228529534,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4811,7 +5879,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6432", value: 2.9561077297334277 },
+      properties: {
+        hex_id: "HEX-6432",
+        uniqueness: 0.78105477848055238,
+        diversity: 2.9561077297334277,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4829,7 +5901,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6433", value: 3.0956999528015281 },
+      properties: {
+        hex_id: "HEX-6433",
+        uniqueness: 0.63000960899208747,
+        diversity: 3.0956999528015281,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4847,7 +5923,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6434", value: 3.3797412607931943 },
+      properties: {
+        hex_id: "HEX-6434",
+        uniqueness: -0.7525532582493627,
+        diversity: 3.3797412607931943,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4865,7 +5945,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6438", value: 3.1259107482044524 },
+      properties: {
+        hex_id: "HEX-6438",
+        uniqueness: 0.36284803731985948,
+        diversity: 3.1259107482044524,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4883,7 +5967,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6440", value: 3.0676052524148325 },
+      properties: {
+        hex_id: "HEX-6440",
+        uniqueness: -0.21865719443773987,
+        diversity: 3.0676052524148325,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4901,7 +5989,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6441", value: 3.0390472144075318 },
+      properties: {
+        hex_id: "HEX-6441",
+        uniqueness: -0.40836040146975344,
+        diversity: 3.0390472144075318,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4919,7 +6011,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6442", value: 3.3266518475796438 },
+      properties: {
+        hex_id: "HEX-6442",
+        uniqueness: -0.86739339008287275,
+        diversity: 3.3266518475796438,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4937,7 +6033,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6449", value: 2.9740410691128529 },
+      properties: {
+        hex_id: "HEX-6449",
+        uniqueness: -0.045763915250085614,
+        diversity: 2.9740410691128529,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4955,7 +6055,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6450", value: 3.174082030239366 },
+      properties: {
+        hex_id: "HEX-6450",
+        uniqueness: -0.025885614740448065,
+        diversity: 3.174082030239366,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4973,7 +6077,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6477", value: 2.3079933635821486 },
+      properties: {
+        hex_id: "HEX-6477",
+        uniqueness: 2.0589861722148508,
+        diversity: 2.3079933635821486,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -4991,7 +6099,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6479", value: 3.5080417908250334 },
+      properties: {
+        hex_id: "HEX-6479",
+        uniqueness: 0.042395311334758053,
+        diversity: 3.5080417908250334,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5009,7 +6121,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6480", value: 3.3354361192116015 },
+      properties: {
+        hex_id: "HEX-6480",
+        uniqueness: 0.094825323328223299,
+        diversity: 3.3354361192116015,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5027,7 +6143,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6482", value: 3.4013342730347049 },
+      properties: {
+        hex_id: "HEX-6482",
+        uniqueness: -0.91983441425733303,
+        diversity: 3.4013342730347049,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5045,7 +6165,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6483", value: 3.4993342794170661 },
+      properties: {
+        hex_id: "HEX-6483",
+        uniqueness: -0.63347333104436909,
+        diversity: 3.4993342794170661,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5063,7 +6187,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6484", value: 2.0119233532686271 },
+      properties: {
+        hex_id: "HEX-6484",
+        uniqueness: 3.1882510064960727,
+        diversity: 2.0119233532686271,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5081,7 +6209,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6488", value: 2.9218527826291196 },
+      properties: {
+        hex_id: "HEX-6488",
+        uniqueness: 1.4566546294134251,
+        diversity: 2.9218527826291196,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5099,7 +6231,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6490", value: 3.2815691942782097 },
+      properties: {
+        hex_id: "HEX-6490",
+        uniqueness: -0.25234562642062536,
+        diversity: 3.2815691942782097,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5117,7 +6253,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6495", value: 3.1818242276729727 },
+      properties: {
+        hex_id: "HEX-6495",
+        uniqueness: -0.72097178517910665,
+        diversity: 3.1818242276729727,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5135,7 +6275,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6496", value: 3.2851394114201797 },
+      properties: {
+        hex_id: "HEX-6496",
+        uniqueness: -0.8933956935783478,
+        diversity: 3.2851394114201797,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5153,7 +6297,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6497", value: 3.4364172482495627 },
+      properties: {
+        hex_id: "HEX-6497",
+        uniqueness: -0.61684179492999813,
+        diversity: 3.4364172482495627,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5171,7 +6319,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6498", value: 3.1803002609974196 },
+      properties: {
+        hex_id: "HEX-6498",
+        uniqueness: -0.62303845691827053,
+        diversity: 3.1803002609974196,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5189,7 +6341,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6524", value: 3.5941522914709849 },
+      properties: {
+        hex_id: "HEX-6524",
+        uniqueness: -0.86786415787359095,
+        diversity: 3.5941522914709849,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5207,7 +6363,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6525", value: 2.7901111255543256 },
+      properties: {
+        hex_id: "HEX-6525",
+        uniqueness: 1.7768156008673508,
+        diversity: 2.7901111255543256,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5225,7 +6385,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6526", value: 3.1279460467817302 },
+      properties: {
+        hex_id: "HEX-6526",
+        uniqueness: 0.31647170680630454,
+        diversity: 3.1279460467817302,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5243,7 +6407,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6527", value: 3.175664026163632 },
+      properties: {
+        hex_id: "HEX-6527",
+        uniqueness: 0.59929111707385341,
+        diversity: 3.175664026163632,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5261,7 +6429,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6529", value: 3.13957258961889 },
+      properties: {
+        hex_id: "HEX-6529",
+        uniqueness: 0.38012186882274612,
+        diversity: 3.13957258961889,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5279,7 +6451,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6530", value: 3.1835587730844814 },
+      properties: {
+        hex_id: "HEX-6530",
+        uniqueness: -0.1393840906127343,
+        diversity: 3.1835587730844814,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5297,7 +6473,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6531", value: 3.2737153278419142 },
+      properties: {
+        hex_id: "HEX-6531",
+        uniqueness: 0.086629188180780248,
+        diversity: 3.2737153278419142,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5315,7 +6495,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6532", value: 3.5105180252901209 },
+      properties: {
+        hex_id: "HEX-6532",
+        uniqueness: -0.45785939050424923,
+        diversity: 3.5105180252901209,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5333,7 +6517,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6533", value: 3.2422773534295612 },
+      properties: {
+        hex_id: "HEX-6533",
+        uniqueness: -0.39222910543171707,
+        diversity: 3.2422773534295612,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5351,7 +6539,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6535", value: 2.6893624372321301 },
+      properties: {
+        hex_id: "HEX-6535",
+        uniqueness: 0.54858133276914212,
+        diversity: 2.6893624372321301,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5369,7 +6561,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6538", value: 2.701862696956542 },
+      properties: {
+        hex_id: "HEX-6538",
+        uniqueness: 1.092283903424478,
+        diversity: 2.701862696956542,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5387,7 +6583,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6539", value: 2.5274671542944271 },
+      properties: {
+        hex_id: "HEX-6539",
+        uniqueness: 2.1723102174070852,
+        diversity: 2.5274671542944271,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5405,7 +6605,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6545", value: 2.7809866129536251 },
+      properties: {
+        hex_id: "HEX-6545",
+        uniqueness: 1.4471540107193857,
+        diversity: 2.7809866129536251,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5423,7 +6627,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6572", value: 3.2845347617581893 },
+      properties: {
+        hex_id: "HEX-6572",
+        uniqueness: -0.12134470473370715,
+        diversity: 3.2845347617581893,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5441,7 +6649,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6573", value: 2.7097636951718886 },
+      properties: {
+        hex_id: "HEX-6573",
+        uniqueness: 1.197641343321256,
+        diversity: 2.7097636951718886,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5459,7 +6671,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6574", value: 2.9214803224231751 },
+      properties: {
+        hex_id: "HEX-6574",
+        uniqueness: 1.9688365291994978,
+        diversity: 2.9214803224231751,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5477,7 +6693,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6575", value: 2.6690530105748409 },
+      properties: {
+        hex_id: "HEX-6575",
+        uniqueness: 1.5311041202711759,
+        diversity: 2.6690530105748409,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5495,7 +6715,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6577", value: 3.2356642207198494 },
+      properties: {
+        hex_id: "HEX-6577",
+        uniqueness: -0.7770862861202813,
+        diversity: 3.2356642207198494,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5513,7 +6737,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6579", value: 3.2730835807021532 },
+      properties: {
+        hex_id: "HEX-6579",
+        uniqueness: -0.97980849736309528,
+        diversity: 3.2730835807021532,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5531,7 +6759,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6580", value: 2.8731515477152696 },
+      properties: {
+        hex_id: "HEX-6580",
+        uniqueness: 0.31542097182825196,
+        diversity: 2.8731515477152696,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5549,7 +6781,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6583", value: 3.5635565496304378 },
+      properties: {
+        hex_id: "HEX-6583",
+        uniqueness: -0.43615600269614424,
+        diversity: 3.5635565496304378,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5567,7 +6803,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6584", value: 2.8154972505705569 },
+      properties: {
+        hex_id: "HEX-6584",
+        uniqueness: 0.9407809162121874,
+        diversity: 2.8154972505705569,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5585,7 +6825,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6591", value: 3.0834582734022713 },
+      properties: {
+        hex_id: "HEX-6591",
+        uniqueness: -0.44702387025923962,
+        diversity: 3.0834582734022713,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5603,7 +6847,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6620", value: 3.3238848664955145 },
+      properties: {
+        hex_id: "HEX-6620",
+        uniqueness: 0.096661400464471525,
+        diversity: 3.3238848664955145,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5621,7 +6869,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6621", value: 3.6056851542157347 },
+      properties: {
+        hex_id: "HEX-6621",
+        uniqueness: -0.70565794088429834,
+        diversity: 3.6056851542157347,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5639,7 +6891,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6625", value: 3.340895629548418 },
+      properties: {
+        hex_id: "HEX-6625",
+        uniqueness: -0.61089733067593122,
+        diversity: 3.340895629548418,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5657,7 +6913,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6626", value: 3.4774010583695492 },
+      properties: {
+        hex_id: "HEX-6626",
+        uniqueness: -0.81702977993166359,
+        diversity: 3.4774010583695492,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5675,7 +6935,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6627", value: 3.1822615729619255 },
+      properties: {
+        hex_id: "HEX-6627",
+        uniqueness: -0.41726149258880529,
+        diversity: 3.1822615729619255,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5693,7 +6957,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6628", value: 3.5570998979310122 },
+      properties: {
+        hex_id: "HEX-6628",
+        uniqueness: -1.5250541546186407,
+        diversity: 3.5570998979310122,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5711,7 +6979,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6629", value: 3.1553402692468637 },
+      properties: {
+        hex_id: "HEX-6629",
+        uniqueness: 0.39527253047037175,
+        diversity: 3.1553402692468637,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5729,7 +7001,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6630", value: 3.6023431853430004 },
+      properties: {
+        hex_id: "HEX-6630",
+        uniqueness: -1.2723327253328902,
+        diversity: 3.6023431853430004,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5747,7 +7023,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6632", value: 2.6326458790383502 },
+      properties: {
+        hex_id: "HEX-6632",
+        uniqueness: 0.6153155997378974,
+        diversity: 2.6326458790383502,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5765,7 +7045,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6633", value: 3.3328207512020835 },
+      properties: {
+        hex_id: "HEX-6633",
+        uniqueness: -0.61954283814763833,
+        diversity: 3.3328207512020835,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5783,7 +7067,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6639", value: 2.8075519525635797 },
+      properties: {
+        hex_id: "HEX-6639",
+        uniqueness: 1.5392386667463984,
+        diversity: 2.8075519525635797,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5801,7 +7089,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6667", value: 3.6253206067395647 },
+      properties: {
+        hex_id: "HEX-6667",
+        uniqueness: -1.0222785830645953,
+        diversity: 3.6253206067395647,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5819,7 +7111,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6668", value: 3.4570356031857612 },
+      properties: {
+        hex_id: "HEX-6668",
+        uniqueness: -0.24922839179483436,
+        diversity: 3.4570356031857612,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5837,7 +7133,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6669", value: 3.387555507052431 },
+      properties: {
+        hex_id: "HEX-6669",
+        uniqueness: 0.13871579212365737,
+        diversity: 3.387555507052431,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5855,7 +7155,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6670", value: 2.7667687226695676 },
+      properties: {
+        hex_id: "HEX-6670",
+        uniqueness: 1.077831871067719,
+        diversity: 2.7667687226695676,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5873,7 +7177,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6671", value: 2.9718398446832937 },
+      properties: {
+        hex_id: "HEX-6671",
+        uniqueness: 0.98485135036986371,
+        diversity: 2.9718398446832937,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5891,7 +7199,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6672", value: 3.1002254050185467 },
+      properties: {
+        hex_id: "HEX-6672",
+        uniqueness: -0.68351647724232545,
+        diversity: 3.1002254050185467,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5909,7 +7221,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6673", value: 3.0665765566322363 },
+      properties: {
+        hex_id: "HEX-6673",
+        uniqueness: -0.1655351522406065,
+        diversity: 3.0665765566322363,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5927,7 +7243,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6674", value: 3.4754871126987852 },
+      properties: {
+        hex_id: "HEX-6674",
+        uniqueness: -0.88490832712736267,
+        diversity: 3.4754871126987852,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5945,7 +7265,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6675", value: 2.9314823931798997 },
+      properties: {
+        hex_id: "HEX-6675",
+        uniqueness: -0.2174818003997793,
+        diversity: 2.9314823931798997,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5963,7 +7287,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6676", value: 3.4562041605292104 },
+      properties: {
+        hex_id: "HEX-6676",
+        uniqueness: -1.2943761314061422,
+        diversity: 3.4562041605292104,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5981,7 +7309,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6677", value: 3.153841074293533 },
+      properties: {
+        hex_id: "HEX-6677",
+        uniqueness: -0.34902969805404788,
+        diversity: 3.153841074293533,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -5999,7 +7331,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6678", value: 3.1880475666133212 },
+      properties: {
+        hex_id: "HEX-6678",
+        uniqueness: -0.66371190453562789,
+        diversity: 3.1880475666133212,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6017,7 +7353,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6679", value: 3.3419969482356797 },
+      properties: {
+        hex_id: "HEX-6679",
+        uniqueness: -0.70423307059804374,
+        diversity: 3.3419969482356797,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6035,7 +7375,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6686", value: 3.3180593672340444 },
+      properties: {
+        hex_id: "HEX-6686",
+        uniqueness: 0.52246188743757571,
+        diversity: 3.3180593672340444,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6053,7 +7397,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6715", value: 3.4598915714065592 },
+      properties: {
+        hex_id: "HEX-6715",
+        uniqueness: -0.15454755992019772,
+        diversity: 3.4598915714065592,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6071,7 +7419,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6716", value: 3.0477210717418282 },
+      properties: {
+        hex_id: "HEX-6716",
+        uniqueness: 1.5167924664529326,
+        diversity: 3.0477210717418282,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6089,7 +7441,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6717", value: 3.2522841262523285 },
+      properties: {
+        hex_id: "HEX-6717",
+        uniqueness: 0.74794759580984504,
+        diversity: 3.2522841262523285,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6107,7 +7463,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6718", value: 2.7066552281255865 },
+      properties: {
+        hex_id: "HEX-6718",
+        uniqueness: 1.5568959155143929,
+        diversity: 2.7066552281255865,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6125,7 +7485,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6720", value: 3.2203679526158275 },
+      properties: {
+        hex_id: "HEX-6720",
+        uniqueness: -0.50392843407739718,
+        diversity: 3.2203679526158275,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6143,7 +7507,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6721", value: 3.3341626894034255 },
+      properties: {
+        hex_id: "HEX-6721",
+        uniqueness: -0.76970400646780612,
+        diversity: 3.3341626894034255,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6161,7 +7529,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6722", value: 3.1863567275578939 },
+      properties: {
+        hex_id: "HEX-6722",
+        uniqueness: -0.50857082315515056,
+        diversity: 3.1863567275578939,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6179,7 +7551,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6723", value: 3.2325186823253165 },
+      properties: {
+        hex_id: "HEX-6723",
+        uniqueness: -0.57070891573879112,
+        diversity: 3.2325186823253165,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6197,7 +7573,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6724", value: 2.9509034484445631 },
+      properties: {
+        hex_id: "HEX-6724",
+        uniqueness: 0.32463588372354735,
+        diversity: 2.9509034484445631,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6215,7 +7595,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6726", value: 2.9521660148145128 },
+      properties: {
+        hex_id: "HEX-6726",
+        uniqueness: -0.33310472516094919,
+        diversity: 2.9521660148145128,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6233,7 +7617,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6762", value: 3.3098486876632114 },
+      properties: {
+        hex_id: "HEX-6762",
+        uniqueness: 0.1813045723331794,
+        diversity: 3.3098486876632114,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6251,7 +7639,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6763", value: 3.0985848600077293 },
+      properties: {
+        hex_id: "HEX-6763",
+        uniqueness: 1.3987698403366189,
+        diversity: 3.0985848600077293,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6269,7 +7661,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6764", value: 3.3891860253313388 },
+      properties: {
+        hex_id: "HEX-6764",
+        uniqueness: 0.58434915428719503,
+        diversity: 3.3891860253313388,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6287,7 +7683,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6765", value: 2.7724974877301172 },
+      properties: {
+        hex_id: "HEX-6765",
+        uniqueness: 1.2555687527991242,
+        diversity: 2.7724974877301172,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6305,7 +7705,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6766", value: 3.0884086560720703 },
+      properties: {
+        hex_id: "HEX-6766",
+        uniqueness: 0.9652677395824133,
+        diversity: 3.0884086560720703,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6323,7 +7727,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6767", value: 3.1961556723351614 },
+      properties: {
+        hex_id: "HEX-6767",
+        uniqueness: -0.28304294523037549,
+        diversity: 3.1961556723351614,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6341,7 +7749,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6768", value: 2.9344275136365758 },
+      properties: {
+        hex_id: "HEX-6768",
+        uniqueness: -0.38720341207149167,
+        diversity: 2.9344275136365758,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6359,7 +7771,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6769", value: 2.0568444294473709 },
+      properties: {
+        hex_id: "HEX-6769",
+        uniqueness: 3.1900061387017904,
+        diversity: 2.0568444294473709,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6377,7 +7793,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6770", value: 3.0116437820029351 },
+      properties: {
+        hex_id: "HEX-6770",
+        uniqueness: -0.50838526123719718,
+        diversity: 3.0116437820029351,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6395,7 +7815,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6771", value: 3.3302452429590108 },
+      properties: {
+        hex_id: "HEX-6771",
+        uniqueness: -1.0321971824886456,
+        diversity: 3.3302452429590108,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6413,7 +7837,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6773", value: 3.3512311106539556 },
+      properties: {
+        hex_id: "HEX-6773",
+        uniqueness: -1.0765258266146693,
+        diversity: 3.3512311106539556,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6431,7 +7859,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6810", value: 3.588089074774905 },
+      properties: {
+        hex_id: "HEX-6810",
+        uniqueness: -0.78962630235983611,
+        diversity: 3.588089074774905,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6449,7 +7881,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6811", value: 2.677165157756324 },
+      properties: {
+        hex_id: "HEX-6811",
+        uniqueness: 1.8066353758754177,
+        diversity: 2.677165157756324,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6467,7 +7903,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6812", value: 2.812919637545737 },
+      properties: {
+        hex_id: "HEX-6812",
+        uniqueness: 1.5154185295406499,
+        diversity: 2.812919637545737,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6485,7 +7925,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6813", value: 2.5302702168736104 },
+      properties: {
+        hex_id: "HEX-6813",
+        uniqueness: 1.7695637747716544,
+        diversity: 2.5302702168736104,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6503,7 +7947,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6814", value: 3.0140540332253916 },
+      properties: {
+        hex_id: "HEX-6814",
+        uniqueness: 0.37000856444514296,
+        diversity: 3.0140540332253916,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6521,7 +7969,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6815", value: 3.243181730156365 },
+      properties: {
+        hex_id: "HEX-6815",
+        uniqueness: 0.75391008794449277,
+        diversity: 3.243181730156365,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6539,7 +7991,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6816", value: 3.1431149091297867 },
+      properties: {
+        hex_id: "HEX-6816",
+        uniqueness: 0.44036909682997905,
+        diversity: 3.1431149091297867,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6557,7 +8013,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6817", value: 2.9169625917133741 },
+      properties: {
+        hex_id: "HEX-6817",
+        uniqueness: -0.019085070895443833,
+        diversity: 2.9169625917133741,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6575,7 +8035,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6818", value: 3.1222704325804207 },
+      properties: {
+        hex_id: "HEX-6818",
+        uniqueness: -0.42948351117726752,
+        diversity: 3.1222704325804207,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6593,7 +8057,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6820", value: 3.0912452364458884 },
+      properties: {
+        hex_id: "HEX-6820",
+        uniqueness: -0.76232745997480111,
+        diversity: 3.0912452364458884,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6611,7 +8079,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6821", value: 3.3484867658754931 },
+      properties: {
+        hex_id: "HEX-6821",
+        uniqueness: -0.63064061496603152,
+        diversity: 3.3484867658754931,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6629,7 +8101,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6822", value: 2.8934891390427513 },
+      properties: {
+        hex_id: "HEX-6822",
+        uniqueness: 1.0879680427091187,
+        diversity: 2.8934891390427513,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6647,7 +8123,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6858", value: 2.608688084374335 },
+      properties: {
+        hex_id: "HEX-6858",
+        uniqueness: 2.3085406741563621,
+        diversity: 2.608688084374335,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6665,7 +8145,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6859", value: 3.2403711619075097 },
+      properties: {
+        hex_id: "HEX-6859",
+        uniqueness: 0.67022984395210239,
+        diversity: 3.2403711619075097,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6683,7 +8167,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6860", value: 3.4231523977152256 },
+      properties: {
+        hex_id: "HEX-6860",
+        uniqueness: 0.66575371273482009,
+        diversity: 3.4231523977152256,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6701,7 +8189,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6861", value: 3.1356981213802588 },
+      properties: {
+        hex_id: "HEX-6861",
+        uniqueness: 0.81331377909103331,
+        diversity: 3.1356981213802588,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6719,7 +8211,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6863", value: 3.1738210627351515 },
+      properties: {
+        hex_id: "HEX-6863",
+        uniqueness: -0.98445923678050595,
+        diversity: 3.1738210627351515,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6737,7 +8233,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6864", value: 2.8300082069052968 },
+      properties: {
+        hex_id: "HEX-6864",
+        uniqueness: 1.8088354194422007,
+        diversity: 2.8300082069052968,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6755,7 +8255,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6865", value: 3.2135798902803177 },
+      properties: {
+        hex_id: "HEX-6865",
+        uniqueness: 0.0017510685001140009,
+        diversity: 3.2135798902803177,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6773,7 +8277,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6868", value: 2.8585379974840892 },
+      properties: {
+        hex_id: "HEX-6868",
+        uniqueness: 2.2100177358538744,
+        diversity: 2.8585379974840892,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6791,7 +8299,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6869", value: 3.2712345069319406 },
+      properties: {
+        hex_id: "HEX-6869",
+        uniqueness: -1.137964121001136,
+        diversity: 3.2712345069319406,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6809,7 +8321,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6870", value: 2.9196448821429275 },
+      properties: {
+        hex_id: "HEX-6870",
+        uniqueness: 0.63741436154896192,
+        diversity: 2.9196448821429275,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6827,7 +8343,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6906", value: 3.0444012011484425 },
+      properties: {
+        hex_id: "HEX-6906",
+        uniqueness: 0.32097630471519351,
+        diversity: 3.0444012011484425,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6845,7 +8365,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6907", value: 2.9493833755166494 },
+      properties: {
+        hex_id: "HEX-6907",
+        uniqueness: 0.94219762740956836,
+        diversity: 2.9493833755166494,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6863,7 +8387,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6908", value: 3.592391353606506 },
+      properties: {
+        hex_id: "HEX-6908",
+        uniqueness: -0.73761803623383959,
+        diversity: 3.592391353606506,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6881,7 +8409,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6909", value: 3.4621606965997374 },
+      properties: {
+        hex_id: "HEX-6909",
+        uniqueness: -1.0708702491106761,
+        diversity: 3.4621606965997374,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6899,7 +8431,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6910", value: 3.2725710807857635 },
+      properties: {
+        hex_id: "HEX-6910",
+        uniqueness: -0.91126795346667744,
+        diversity: 3.2725710807857635,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6917,7 +8453,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6911", value: 3.5570674714239194 },
+      properties: {
+        hex_id: "HEX-6911",
+        uniqueness: -1.1319202841856812,
+        diversity: 3.5570674714239194,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6935,7 +8475,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6915", value: 2.6811688356215382 },
+      properties: {
+        hex_id: "HEX-6915",
+        uniqueness: 1.5855094807389232,
+        diversity: 2.6811688356215382,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6953,7 +8497,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6919", value: 2.0198891376868056 },
+      properties: {
+        hex_id: "HEX-6919",
+        uniqueness: 2.8848080743572733,
+        diversity: 2.0198891376868056,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6971,7 +8519,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6953", value: 3.0586425646067044 },
+      properties: {
+        hex_id: "HEX-6953",
+        uniqueness: 1.619086476704108,
+        diversity: 3.0586425646067044,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -6989,7 +8541,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6954", value: 2.5536405040352523 },
+      properties: {
+        hex_id: "HEX-6954",
+        uniqueness: 1.9136387633558238,
+        diversity: 2.5536405040352523,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7007,7 +8563,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6955", value: 3.3190720391675015 },
+      properties: {
+        hex_id: "HEX-6955",
+        uniqueness: -0.28439500848445726,
+        diversity: 3.3190720391675015,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7025,7 +8585,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6956", value: 3.2398078767515175 },
+      properties: {
+        hex_id: "HEX-6956",
+        uniqueness: -0.14591580821298428,
+        diversity: 3.2398078767515175,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7043,7 +8607,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6957", value: 3.2082257437004738 },
+      properties: {
+        hex_id: "HEX-6957",
+        uniqueness: -0.52518742010718644,
+        diversity: 3.2082257437004738,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7061,7 +8629,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6958", value: 3.4542517155249128 },
+      properties: {
+        hex_id: "HEX-6958",
+        uniqueness: -1.2038071000601023,
+        diversity: 3.4542517155249128,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7079,7 +8651,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-6999", value: 3.2006307020912983 },
+      properties: {
+        hex_id: "HEX-6999",
+        uniqueness: 1.3851501575570704,
+        diversity: 3.2006307020912983,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7097,7 +8673,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7000", value: 3.054930045575178 },
+      properties: {
+        hex_id: "HEX-7000",
+        uniqueness: -0.22760576362235002,
+        diversity: 3.054930045575178,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7115,7 +8695,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7003", value: 3.0697629225117815 },
+      properties: {
+        hex_id: "HEX-7003",
+        uniqueness: -0.15461406342565556,
+        diversity: 3.0697629225117815,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7133,7 +8717,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7004", value: 3.2678095037152985 },
+      properties: {
+        hex_id: "HEX-7004",
+        uniqueness: 0.090825587541010527,
+        diversity: 3.2678095037152985,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7151,7 +8739,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7005", value: 3.0253910915818523 },
+      properties: {
+        hex_id: "HEX-7005",
+        uniqueness: -0.33764027030905269,
+        diversity: 3.0253910915818523,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7169,7 +8761,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7006", value: 3.2508500129237348 },
+      properties: {
+        hex_id: "HEX-7006",
+        uniqueness: -0.94115224124364116,
+        diversity: 3.2508500129237348,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7187,7 +8783,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7007", value: 3.4245255718056882 },
+      properties: {
+        hex_id: "HEX-7007",
+        uniqueness: -1.3694273756183042,
+        diversity: 3.4245255718056882,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7205,7 +8805,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7009", value: 3.4053131038009017 },
+      properties: {
+        hex_id: "HEX-7009",
+        uniqueness: -0.42433360309572915,
+        diversity: 3.4053131038009017,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7223,7 +8827,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7011", value: 3.2849930481558407 },
+      properties: {
+        hex_id: "HEX-7011",
+        uniqueness: -0.37900006653784979,
+        diversity: 3.2849930481558407,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7241,7 +8849,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7051", value: 2.7212446433038298 },
+      properties: {
+        hex_id: "HEX-7051",
+        uniqueness: 1.7616508413523069,
+        diversity: 2.7212446433038298,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7259,7 +8871,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7052", value: 3.324948924017141 },
+      properties: {
+        hex_id: "HEX-7052",
+        uniqueness: 0.1636127699073035,
+        diversity: 3.324948924017141,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7277,7 +8893,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7053", value: 3.1329460609050472 },
+      properties: {
+        hex_id: "HEX-7053",
+        uniqueness: -0.79811493071809747,
+        diversity: 3.1329460609050472,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7295,7 +8915,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7054", value: 3.4673690706176816 },
+      properties: {
+        hex_id: "HEX-7054",
+        uniqueness: -1.2330084373687289,
+        diversity: 3.4673690706176816,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7313,7 +8937,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7057", value: 3.2642542024231762 },
+      properties: {
+        hex_id: "HEX-7057",
+        uniqueness: -0.072145576634151692,
+        diversity: 3.2642542024231762,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7331,7 +8959,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7058", value: 2.8118603553863633 },
+      properties: {
+        hex_id: "HEX-7058",
+        uniqueness: 0.18892840240874004,
+        diversity: 2.8118603553863633,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7349,7 +8981,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7095", value: 3.0089300619290795 },
+      properties: {
+        hex_id: "HEX-7095",
+        uniqueness: 0.47613281309337313,
+        diversity: 3.0089300619290795,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7367,7 +9003,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7097", value: 2.4840898673996352 },
+      properties: {
+        hex_id: "HEX-7097",
+        uniqueness: 2.7621117432162814,
+        diversity: 2.4840898673996352,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7385,7 +9025,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7100", value: 2.7415828935256599 },
+      properties: {
+        hex_id: "HEX-7100",
+        uniqueness: 1.2740711707130199,
+        diversity: 2.7415828935256599,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7403,7 +9047,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7101", value: 3.2126742368573336 },
+      properties: {
+        hex_id: "HEX-7101",
+        uniqueness: -0.79398408663843023,
+        diversity: 3.2126742368573336,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7421,7 +9069,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7102", value: 3.1007980295507469 },
+      properties: {
+        hex_id: "HEX-7102",
+        uniqueness: -0.052462335020401103,
+        diversity: 3.1007980295507469,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7439,7 +9091,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7103", value: 3.2104536596836351 },
+      properties: {
+        hex_id: "HEX-7103",
+        uniqueness: -0.82644085037048076,
+        diversity: 3.2104536596836351,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7457,7 +9113,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7104", value: 3.4584074655132957 },
+      properties: {
+        hex_id: "HEX-7104",
+        uniqueness: -1.2023693151622823,
+        diversity: 3.4584074655132957,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7475,7 +9135,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7105", value: 3.0946770817884857 },
+      properties: {
+        hex_id: "HEX-7105",
+        uniqueness: 1.0972020576341996,
+        diversity: 3.0946770817884857,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7493,7 +9157,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7107", value: 3.1822010337148892 },
+      properties: {
+        hex_id: "HEX-7107",
+        uniqueness: 0.018766901054835337,
+        diversity: 3.1822010337148892,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7511,7 +9179,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7109", value: 3.258416051048127 },
+      properties: {
+        hex_id: "HEX-7109",
+        uniqueness: -0.0050014741064350809,
+        diversity: 3.258416051048127,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7529,7 +9201,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7151", value: 3.1355293295679183 },
+      properties: {
+        hex_id: "HEX-7151",
+        uniqueness: -0.52207173014008945,
+        diversity: 3.1355293295679183,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7547,7 +9223,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7152", value: 3.016134506382143 },
+      properties: {
+        hex_id: "HEX-7152",
+        uniqueness: 0.17453033414417654,
+        diversity: 3.016134506382143,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7565,7 +9245,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7153", value: 3.1093822515068688 },
+      properties: {
+        hex_id: "HEX-7153",
+        uniqueness: -0.56544162539250864,
+        diversity: 3.1093822515068688,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7583,7 +9267,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7154", value: 2.8342373663974225 },
+      properties: {
+        hex_id: "HEX-7154",
+        uniqueness: -0.26990268979036258,
+        diversity: 2.8342373663974225,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7601,7 +9289,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7156", value: 3.1282795787243995 },
+      properties: {
+        hex_id: "HEX-7156",
+        uniqueness: -0.060692355192190489,
+        diversity: 3.1282795787243995,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7619,7 +9311,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7157", value: 2.8855786672678327 },
+      properties: {
+        hex_id: "HEX-7157",
+        uniqueness: 0.74545825591118009,
+        diversity: 2.8855786672678327,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7637,7 +9333,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7192", value: 3.2729296274563056 },
+      properties: {
+        hex_id: "HEX-7192",
+        uniqueness: -1.2475253572201381,
+        diversity: 3.2729296274563056,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7655,7 +9355,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7193", value: 2.7628422000752688 },
+      properties: {
+        hex_id: "HEX-7193",
+        uniqueness: 1.2374805633818224,
+        diversity: 2.7628422000752688,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7673,7 +9377,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7194", value: 2.7513082856775126 },
+      properties: {
+        hex_id: "HEX-7194",
+        uniqueness: 0.78884960618589173,
+        diversity: 2.7513082856775126,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7691,7 +9399,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7195", value: 2.7930839780818553 },
+      properties: {
+        hex_id: "HEX-7195",
+        uniqueness: -0.15717642027156986,
+        diversity: 2.7930839780818553,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7709,7 +9421,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7196", value: 3.116769521929184 },
+      properties: {
+        hex_id: "HEX-7196",
+        uniqueness: 0.96748200309401,
+        diversity: 3.116769521929184,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7727,7 +9443,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7199", value: 3.3171339848349204 },
+      properties: {
+        hex_id: "HEX-7199",
+        uniqueness: -0.63815652899770992,
+        diversity: 3.3171339848349204,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7745,7 +9465,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7200", value: 3.3177981751469798 },
+      properties: {
+        hex_id: "HEX-7200",
+        uniqueness: -0.54036616813762051,
+        diversity: 3.3177981751469798,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7763,7 +9487,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7201", value: 3.2994536335041813 },
+      properties: {
+        hex_id: "HEX-7201",
+        uniqueness: -0.60052259624868753,
+        diversity: 3.2994536335041813,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7781,7 +9509,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7204", value: 3.5574131965770128 },
+      properties: {
+        hex_id: "HEX-7204",
+        uniqueness: -0.17097218986180959,
+        diversity: 3.5574131965770128,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7799,7 +9531,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7240", value: 3.1639605164787019 },
+      properties: {
+        hex_id: "HEX-7240",
+        uniqueness: -0.31289418458949858,
+        diversity: 3.1639605164787019,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7817,7 +9553,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7241", value: 1.7576653006017977 },
+      properties: {
+        hex_id: "HEX-7241",
+        uniqueness: 3.8074688456114174,
+        diversity: 1.7576653006017977,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7835,7 +9575,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7242", value: 3.1505757117299509 },
+      properties: {
+        hex_id: "HEX-7242",
+        uniqueness: -0.24505452996102145,
+        diversity: 3.1505757117299509,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7853,7 +9597,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7243", value: 3.3890089792129894 },
+      properties: {
+        hex_id: "HEX-7243",
+        uniqueness: -1.3664426987318046,
+        diversity: 3.3890089792129894,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7871,7 +9619,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7244", value: 3.2621895345873249 },
+      properties: {
+        hex_id: "HEX-7244",
+        uniqueness: -0.42801478763186274,
+        diversity: 3.2621895345873249,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7889,7 +9641,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7246", value: 2.7485945393936335 },
+      properties: {
+        hex_id: "HEX-7246",
+        uniqueness: 0.83279388738152427,
+        diversity: 2.7485945393936335,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7907,7 +9663,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7247", value: 3.0894372492564863 },
+      properties: {
+        hex_id: "HEX-7247",
+        uniqueness: -0.76399960424827262,
+        diversity: 3.0894372492564863,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7925,7 +9685,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7252", value: 3.3888703093347683 },
+      properties: {
+        hex_id: "HEX-7252",
+        uniqueness: -0.7273415844403478,
+        diversity: 3.3888703093347683,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7943,7 +9707,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7288", value: 3.3932802271661071 },
+      properties: {
+        hex_id: "HEX-7288",
+        uniqueness: -0.80293179372741363,
+        diversity: 3.3932802271661071,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7961,7 +9729,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7289", value: 3.3638284738704938 },
+      properties: {
+        hex_id: "HEX-7289",
+        uniqueness: -0.27639938056445768,
+        diversity: 3.3638284738704938,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7979,7 +9751,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7291", value: 3.3008231556752317 },
+      properties: {
+        hex_id: "HEX-7291",
+        uniqueness: -0.2580806917761303,
+        diversity: 3.3008231556752317,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -7997,7 +9773,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7292", value: 3.139518102259788 },
+      properties: {
+        hex_id: "HEX-7292",
+        uniqueness: -0.39604231005957469,
+        diversity: 3.139518102259788,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8015,7 +9795,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7293", value: 2.9551605233482214 },
+      properties: {
+        hex_id: "HEX-7293",
+        uniqueness: 1.2137870309920398,
+        diversity: 2.9551605233482214,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8033,7 +9817,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7294", value: 2.953567763236844 },
+      properties: {
+        hex_id: "HEX-7294",
+        uniqueness: 0.9110528982013042,
+        diversity: 2.953567763236844,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8051,7 +9839,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7297", value: 3.5337512787503824 },
+      properties: {
+        hex_id: "HEX-7297",
+        uniqueness: -1.2282003473466154,
+        diversity: 3.5337512787503824,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8069,7 +9861,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7336", value: 3.1236532488088642 },
+      properties: {
+        hex_id: "HEX-7336",
+        uniqueness: 0.62683539410401623,
+        diversity: 3.1236532488088642,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8087,7 +9883,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7337", value: 2.8166688031443545 },
+      properties: {
+        hex_id: "HEX-7337",
+        uniqueness: -0.060198120533943023,
+        diversity: 2.8166688031443545,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8105,7 +9905,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7339", value: 3.2201539100663812 },
+      properties: {
+        hex_id: "HEX-7339",
+        uniqueness: 0.24453557087110342,
+        diversity: 3.2201539100663812,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8123,7 +9927,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7341", value: 3.3473927777733157 },
+      properties: {
+        hex_id: "HEX-7341",
+        uniqueness: -0.64731767278625396,
+        diversity: 3.3473927777733157,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8141,7 +9949,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7383", value: 3.2770533771021899 },
+      properties: {
+        hex_id: "HEX-7383",
+        uniqueness: -0.27073299620530789,
+        diversity: 3.2770533771021899,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8159,7 +9971,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7384", value: 3.3222495328237538 },
+      properties: {
+        hex_id: "HEX-7384",
+        uniqueness: -0.11089477912630397,
+        diversity: 3.3222495328237538,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8177,7 +9993,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7386", value: 3.2462930274167681 },
+      properties: {
+        hex_id: "HEX-7386",
+        uniqueness: -0.62879025432084468,
+        diversity: 3.2462930274167681,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8195,7 +10015,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7390", value: 3.1424456518830648 },
+      properties: {
+        hex_id: "HEX-7390",
+        uniqueness: -0.5907128852880198,
+        diversity: 3.1424456518830648,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8213,7 +10037,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7392", value: 2.8093354925619551 },
+      properties: {
+        hex_id: "HEX-7392",
+        uniqueness: 1.2052072125811264,
+        diversity: 2.8093354925619551,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8231,7 +10059,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7431", value: 2.6582984707223587 },
+      properties: {
+        hex_id: "HEX-7431",
+        uniqueness: 0.66536166618564452,
+        diversity: 2.6582984707223587,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8249,7 +10081,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7432", value: 2.9934534950820866 },
+      properties: {
+        hex_id: "HEX-7432",
+        uniqueness: -0.45558044996024116,
+        diversity: 2.9934534950820866,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8267,7 +10103,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7433", value: 3.206444813803643 },
+      properties: {
+        hex_id: "HEX-7433",
+        uniqueness: -0.23330739727081129,
+        diversity: 3.206444813803643,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8285,7 +10125,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7434", value: 3.0046735730467957 },
+      properties: {
+        hex_id: "HEX-7434",
+        uniqueness: 0.039531263299642232,
+        diversity: 3.0046735730467957,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8303,7 +10147,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7435", value: 3.5069655020744057 },
+      properties: {
+        hex_id: "HEX-7435",
+        uniqueness: -0.96754131393100273,
+        diversity: 3.5069655020744057,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8321,7 +10169,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7439", value: 1.5991852938395703 },
+      properties: {
+        hex_id: "HEX-7439",
+        uniqueness: 4.5053822862837007,
+        diversity: 1.5991852938395703,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8339,7 +10191,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7479", value: 3.4602336797450421 },
+      properties: {
+        hex_id: "HEX-7479",
+        uniqueness: -0.96092901126777186,
+        diversity: 3.4602336797450421,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8357,7 +10213,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7480", value: 3.1814821963102791 },
+      properties: {
+        hex_id: "HEX-7480",
+        uniqueness: 0.079887303413134242,
+        diversity: 3.1814821963102791,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8375,7 +10235,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7482", value: 3.0162218883112666 },
+      properties: {
+        hex_id: "HEX-7482",
+        uniqueness: 1.0363937874093165,
+        diversity: 3.0162218883112666,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8393,7 +10257,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7484", value: 3.2733586055986921 },
+      properties: {
+        hex_id: "HEX-7484",
+        uniqueness: 0.7733476761757021,
+        diversity: 3.2733586055986921,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8411,7 +10279,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7485", value: 3.2623885639025043 },
+      properties: {
+        hex_id: "HEX-7485",
+        uniqueness: -0.73875229120978214,
+        diversity: 3.2623885639025043,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8429,7 +10301,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7487", value: 3.1222408973586733 },
+      properties: {
+        hex_id: "HEX-7487",
+        uniqueness: -0.70827505151502856,
+        diversity: 3.1222408973586733,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8447,7 +10323,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7488", value: 3.2995261286847128 },
+      properties: {
+        hex_id: "HEX-7488",
+        uniqueness: -0.19736181441701323,
+        diversity: 3.2995261286847128,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8465,7 +10345,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7490", value: 3.0468764790709422 },
+      properties: {
+        hex_id: "HEX-7490",
+        uniqueness: 0.52891857753497784,
+        diversity: 3.0468764790709422,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8483,7 +10367,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7527", value: 3.2886599178820854 },
+      properties: {
+        hex_id: "HEX-7527",
+        uniqueness: -1.0598072341293898,
+        diversity: 3.2886599178820854,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8501,7 +10389,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7529", value: 3.476365898093158 },
+      properties: {
+        hex_id: "HEX-7529",
+        uniqueness: -0.82857682093881524,
+        diversity: 3.476365898093158,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8519,7 +10411,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7530", value: 3.3681983181705646 },
+      properties: {
+        hex_id: "HEX-7530",
+        uniqueness: 0.01505082155622825,
+        diversity: 3.3681983181705646,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8537,7 +10433,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7532", value: 3.113767808855882 },
+      properties: {
+        hex_id: "HEX-7532",
+        uniqueness: -0.57810044222235502,
+        diversity: 3.113767808855882,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8555,7 +10455,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7534", value: 3.3891280712773142 },
+      properties: {
+        hex_id: "HEX-7534",
+        uniqueness: -1.1915293979176393,
+        diversity: 3.3891280712773142,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8573,7 +10477,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7535", value: 3.2433805972977696 },
+      properties: {
+        hex_id: "HEX-7535",
+        uniqueness: -0.011052624774766743,
+        diversity: 3.2433805972977696,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8591,7 +10499,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7574", value: 2.786877921366135 },
+      properties: {
+        hex_id: "HEX-7574",
+        uniqueness: 1.8606576166269051,
+        diversity: 2.786877921366135,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8609,7 +10521,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7575", value: 3.2131827561712147 },
+      properties: {
+        hex_id: "HEX-7575",
+        uniqueness: -0.043949629319228772,
+        diversity: 3.2131827561712147,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8627,7 +10543,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7576", value: 3.0767393544638977 },
+      properties: {
+        hex_id: "HEX-7576",
+        uniqueness: 0.33667977637914925,
+        diversity: 3.0767393544638977,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8645,7 +10565,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7577", value: 3.2330122789899627 },
+      properties: {
+        hex_id: "HEX-7577",
+        uniqueness: -0.13399743825411922,
+        diversity: 3.2330122789899627,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8663,7 +10587,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7579", value: 3.5594859564079684 },
+      properties: {
+        hex_id: "HEX-7579",
+        uniqueness: -1.3001241082486346,
+        diversity: 3.5594859564079684,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8681,7 +10609,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7581", value: 2.6590848976415788 },
+      properties: {
+        hex_id: "HEX-7581",
+        uniqueness: 0.23621875915140436,
+        diversity: 2.6590848976415788,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8699,7 +10631,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7582", value: 3.4545839603844359 },
+      properties: {
+        hex_id: "HEX-7582",
+        uniqueness: -0.642980809937443,
+        diversity: 3.4545839603844359,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8717,7 +10653,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7620", value: 3.1121127009929008 },
+      properties: {
+        hex_id: "HEX-7620",
+        uniqueness: 0.030339081070044602,
+        diversity: 3.1121127009929008,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8735,7 +10675,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7621", value: 3.1109502846823207 },
+      properties: {
+        hex_id: "HEX-7621",
+        uniqueness: -0.53024894216133478,
+        diversity: 3.1109502846823207,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8753,7 +10697,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7624", value: 3.0580100325481419 },
+      properties: {
+        hex_id: "HEX-7624",
+        uniqueness: 0.33236228177902272,
+        diversity: 3.0580100325481419,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8771,7 +10719,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7629", value: 3.5116643148112838 },
+      properties: {
+        hex_id: "HEX-7629",
+        uniqueness: -1.1607270545442134,
+        diversity: 3.5116643148112838,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8789,7 +10741,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7630", value: 2.9877114587695219 },
+      properties: {
+        hex_id: "HEX-7630",
+        uniqueness: -0.40198598582751854,
+        diversity: 2.9877114587695219,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8807,7 +10763,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7632", value: 3.0452743013952817 },
+      properties: {
+        hex_id: "HEX-7632",
+        uniqueness: -0.18580199349729029,
+        diversity: 3.0452743013952817,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8825,7 +10785,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7667", value: 3.4294390190162449 },
+      properties: {
+        hex_id: "HEX-7667",
+        uniqueness: 0.744462727265917,
+        diversity: 3.4294390190162449,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8843,7 +10807,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7668", value: 3.4272947821028312 },
+      properties: {
+        hex_id: "HEX-7668",
+        uniqueness: -0.68607801882023356,
+        diversity: 3.4272947821028312,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8861,7 +10829,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7671", value: 2.5537629915995712 },
+      properties: {
+        hex_id: "HEX-7671",
+        uniqueness: 1.7629881435617698,
+        diversity: 2.5537629915995712,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8879,7 +10851,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7672", value: 3.2532152180956069 },
+      properties: {
+        hex_id: "HEX-7672",
+        uniqueness: 0.20724997481943264,
+        diversity: 3.2532152180956069,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8897,7 +10873,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7677", value: 3.0636698437306777 },
+      properties: {
+        hex_id: "HEX-7677",
+        uniqueness: -0.29108050532498458,
+        diversity: 3.0636698437306777,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8915,7 +10895,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7678", value: 3.3975839737100308 },
+      properties: {
+        hex_id: "HEX-7678",
+        uniqueness: -1.141516551572288,
+        diversity: 3.3975839737100308,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8933,7 +10917,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7679", value: 3.2148881314536188 },
+      properties: {
+        hex_id: "HEX-7679",
+        uniqueness: -0.40906246009710467,
+        diversity: 3.2148881314536188,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8951,7 +10939,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7715", value: 3.432805774575487 },
+      properties: {
+        hex_id: "HEX-7715",
+        uniqueness: -1.0142855743197918,
+        diversity: 3.432805774575487,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8969,7 +10961,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7716", value: 3.5078465656402775 },
+      properties: {
+        hex_id: "HEX-7716",
+        uniqueness: -1.2397293269686827,
+        diversity: 3.5078465656402775,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -8987,7 +10983,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7720", value: 2.3359128996413556 },
+      properties: {
+        hex_id: "HEX-7720",
+        uniqueness: 3.0048484971650713,
+        diversity: 2.3359128996413556,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9005,7 +11005,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7721", value: 3.1788874859840521 },
+      properties: {
+        hex_id: "HEX-7721",
+        uniqueness: 0.73870237684400919,
+        diversity: 3.1788874859840521,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9023,7 +11027,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7728", value: 3.2879938279284056 },
+      properties: {
+        hex_id: "HEX-7728",
+        uniqueness: -0.92320219185388985,
+        diversity: 3.2879938279284056,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9041,7 +11049,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7762", value: 3.3147410729077138 },
+      properties: {
+        hex_id: "HEX-7762",
+        uniqueness: -0.41499039620929989,
+        diversity: 3.3147410729077138,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9059,7 +11071,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7763", value: 3.2588905761755718 },
+      properties: {
+        hex_id: "HEX-7763",
+        uniqueness: 0.036976824395453155,
+        diversity: 3.2588905761755718,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9077,7 +11093,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7767", value: 3.2937660537335303 },
+      properties: {
+        hex_id: "HEX-7767",
+        uniqueness: -0.64544256713538617,
+        diversity: 3.2937660537335303,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9095,7 +11115,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7776", value: 3.0650306507331484 },
+      properties: {
+        hex_id: "HEX-7776",
+        uniqueness: -0.13853479985693634,
+        diversity: 3.0650306507331484,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9113,7 +11137,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7811", value: 3.5373140849571105 },
+      properties: {
+        hex_id: "HEX-7811",
+        uniqueness: -0.78701216065125823,
+        diversity: 3.5373140849571105,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9131,7 +11159,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7813", value: 3.6302637580380503 },
+      properties: {
+        hex_id: "HEX-7813",
+        uniqueness: -1.1584169605068555,
+        diversity: 3.6302637580380503,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9149,7 +11181,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7814", value: 2.8014975225149814 },
+      properties: {
+        hex_id: "HEX-7814",
+        uniqueness: 0.13223027611177615,
+        diversity: 2.8014975225149814,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9167,7 +11203,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7815", value: 3.2189356628267216 },
+      properties: {
+        hex_id: "HEX-7815",
+        uniqueness: -0.36249183727972595,
+        diversity: 3.2189356628267216,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9185,7 +11225,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7820", value: 2.7509139937318654 },
+      properties: {
+        hex_id: "HEX-7820",
+        uniqueness: 0.62252774275306078,
+        diversity: 2.7509139937318654,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9203,7 +11247,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7821", value: 3.4146510719966341 },
+      properties: {
+        hex_id: "HEX-7821",
+        uniqueness: 0.38499085438280817,
+        diversity: 3.4146510719966341,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9221,7 +11269,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7822", value: 3.3470083716685459 },
+      properties: {
+        hex_id: "HEX-7822",
+        uniqueness: -0.95392868089252159,
+        diversity: 3.3470083716685459,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9239,7 +11291,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7824", value: 2.9924901746214387 },
+      properties: {
+        hex_id: "HEX-7824",
+        uniqueness: -0.51883984201085553,
+        diversity: 2.9924901746214387,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9257,7 +11313,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7858", value: 3.3208206601927279 },
+      properties: {
+        hex_id: "HEX-7858",
+        uniqueness: 0.18037040627238587,
+        diversity: 3.3208206601927279,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9275,7 +11335,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7861", value: 2.7078929757548171 },
+      properties: {
+        hex_id: "HEX-7861",
+        uniqueness: 1.5166579564156757,
+        diversity: 2.7078929757548171,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9293,7 +11357,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7870", value: 2.4633111461825044 },
+      properties: {
+        hex_id: "HEX-7870",
+        uniqueness: 2.575091933353828,
+        diversity: 2.4633111461825044,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9311,7 +11379,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7871", value: 3.2599077777249232 },
+      properties: {
+        hex_id: "HEX-7871",
+        uniqueness: -0.0061640304602008462,
+        diversity: 3.2599077777249232,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9329,7 +11401,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7905", value: 3.3644970349397441 },
+      properties: {
+        hex_id: "HEX-7905",
+        uniqueness: -0.24540586633950578,
+        diversity: 3.3644970349397441,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9347,7 +11423,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7906", value: 2.9797900305875 },
+      properties: {
+        hex_id: "HEX-7906",
+        uniqueness: -0.16448735618557664,
+        diversity: 2.9797900305875,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9365,7 +11445,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7919", value: 3.2723357211267743 },
+      properties: {
+        hex_id: "HEX-7919",
+        uniqueness: -1.0016280567132583,
+        diversity: 3.2723357211267743,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9383,7 +11467,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7953", value: 2.921899892556846 },
+      properties: {
+        hex_id: "HEX-7953",
+        uniqueness: 1.2852870726167798,
+        diversity: 2.921899892556846,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9401,7 +11489,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7954", value: 3.0189652635871713 },
+      properties: {
+        hex_id: "HEX-7954",
+        uniqueness: 0.3179628768415827,
+        diversity: 3.0189652635871713,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9419,7 +11511,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7957", value: 3.3034964457621308 },
+      properties: {
+        hex_id: "HEX-7957",
+        uniqueness: 0.23451610035679848,
+        diversity: 3.3034964457621308,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9437,7 +11533,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7964", value: 2.6740833877921819 },
+      properties: {
+        hex_id: "HEX-7964",
+        uniqueness: 1.5157498755169299,
+        diversity: 2.6740833877921819,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9455,7 +11555,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7966", value: 2.9016987695809586 },
+      properties: {
+        hex_id: "HEX-7966",
+        uniqueness: 1.1022460787536483,
+        diversity: 2.9016987695809586,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9473,7 +11577,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-7968", value: 2.9235966563344893 },
+      properties: {
+        hex_id: "HEX-7968",
+        uniqueness: 1.1838195349014431,
+        diversity: 2.9235966563344893,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9491,7 +11599,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8000", value: 3.4448008728761379 },
+      properties: {
+        hex_id: "HEX-8000",
+        uniqueness: -1.5506262839370166,
+        diversity: 3.4448008728761379,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9509,7 +11621,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8001", value: 3.2493877626528076 },
+      properties: {
+        hex_id: "HEX-8001",
+        uniqueness: -0.038560045848031521,
+        diversity: 3.2493877626528076,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9527,7 +11643,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8005", value: 2.3934786836470314 },
+      properties: {
+        hex_id: "HEX-8005",
+        uniqueness: 2.4797559050924405,
+        diversity: 2.3934786836470314,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9545,7 +11665,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8012", value: 3.4162172152673733 },
+      properties: {
+        hex_id: "HEX-8012",
+        uniqueness: -0.090649365612025107,
+        diversity: 3.4162172152673733,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9563,7 +11687,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8013", value: 3.5747951437080516 },
+      properties: {
+        hex_id: "HEX-8013",
+        uniqueness: -1.0406490734062845,
+        diversity: 3.5747951437080516,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9581,7 +11709,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8048", value: 3.3438346548260895 },
+      properties: {
+        hex_id: "HEX-8048",
+        uniqueness: -0.35222107671386882,
+        diversity: 3.3438346548260895,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9599,7 +11731,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8050", value: 3.0358406684077366 },
+      properties: {
+        hex_id: "HEX-8050",
+        uniqueness: -0.6344589305692222,
+        diversity: 3.0358406684077366,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9617,7 +11753,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8052", value: 3.5943196793715773 },
+      properties: {
+        hex_id: "HEX-8052",
+        uniqueness: -1.5279874003872163,
+        diversity: 3.5943196793715773,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9635,7 +11775,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8096", value: 2.8956421974633684 },
+      properties: {
+        hex_id: "HEX-8096",
+        uniqueness: -0.46431074148814278,
+        diversity: 2.8956421974633684,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9653,7 +11797,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8098", value: 3.2268621141558511 },
+      properties: {
+        hex_id: "HEX-8098",
+        uniqueness: 0.82583385047040658,
+        diversity: 3.2268621141558511,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9671,7 +11819,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8107", value: 3.5339870078976547 },
+      properties: {
+        hex_id: "HEX-8107",
+        uniqueness: -1.122011799395938,
+        diversity: 3.5339870078976547,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9689,7 +11841,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8108", value: 3.3700890385169302 },
+      properties: {
+        hex_id: "HEX-8108",
+        uniqueness: -0.62910954371695393,
+        diversity: 3.3700890385169302,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9707,7 +11863,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8143", value: 2.7636512196496983 },
+      properties: {
+        hex_id: "HEX-8143",
+        uniqueness: 1.1035100474820549,
+        diversity: 2.7636512196496983,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9725,7 +11885,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8144", value: 2.2842108596170991 },
+      properties: {
+        hex_id: "HEX-8144",
+        uniqueness: 3.3246629007798387,
+        diversity: 2.2842108596170991,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9743,7 +11907,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8146", value: 3.280782028790771 },
+      properties: {
+        hex_id: "HEX-8146",
+        uniqueness: 0.13011536240602387,
+        diversity: 3.280782028790771,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9761,7 +11929,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8147", value: 2.5418654447226094 },
+      properties: {
+        hex_id: "HEX-8147",
+        uniqueness: 1.6961542116614872,
+        diversity: 2.5418654447226094,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9779,7 +11951,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8192", value: 3.3731176697946599 },
+      properties: {
+        hex_id: "HEX-8192",
+        uniqueness: -0.99276420276650779,
+        diversity: 3.3731176697946599,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9797,7 +11973,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8193", value: 3.414915399945913 },
+      properties: {
+        hex_id: "HEX-8193",
+        uniqueness: -0.61259647085013647,
+        diversity: 3.414915399945913,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9815,7 +11995,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8195", value: 2.7455191034127338 },
+      properties: {
+        hex_id: "HEX-8195",
+        uniqueness: 0.63353240842325742,
+        diversity: 2.7455191034127338,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9833,7 +12017,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8239", value: 2.9710225239133505 },
+      properties: {
+        hex_id: "HEX-8239",
+        uniqueness: 0.36746664019119502,
+        diversity: 2.9710225239133505,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9851,7 +12039,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8240", value: 3.3486169990673913 },
+      properties: {
+        hex_id: "HEX-8240",
+        uniqueness: -0.93363368062399354,
+        diversity: 3.3486169990673913,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9869,7 +12061,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8286", value: 3.2763862236034269 },
+      properties: {
+        hex_id: "HEX-8286",
+        uniqueness: -1.2088240491523565,
+        diversity: 3.2763862236034269,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9887,7 +12083,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8289", value: 3.3610551587003599 },
+      properties: {
+        hex_id: "HEX-8289",
+        uniqueness: -0.96223723034836572,
+        diversity: 3.3610551587003599,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9905,7 +12105,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8334", value: 3.3105713401864714 },
+      properties: {
+        hex_id: "HEX-8334",
+        uniqueness: -0.68660140350568855,
+        diversity: 3.3105713401864714,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9923,7 +12127,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8336", value: 3.3190763941785555 },
+      properties: {
+        hex_id: "HEX-8336",
+        uniqueness: -0.64049523027871813,
+        diversity: 3.3190763941785555,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9941,7 +12149,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8337", value: 3.5153921732468554 },
+      properties: {
+        hex_id: "HEX-8337",
+        uniqueness: -1.3827821884262417,
+        diversity: 3.5153921732468554,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9959,7 +12171,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8341", value: 2.9966900006651667 },
+      properties: {
+        hex_id: "HEX-8341",
+        uniqueness: -0.54455441496969526,
+        diversity: 2.9966900006651667,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9977,7 +12193,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8381", value: 2.3654850460162264 },
+      properties: {
+        hex_id: "HEX-8381",
+        uniqueness: 0.72631205477948546,
+        diversity: 2.3654850460162264,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -9995,7 +12215,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8382", value: 3.2410136784146584 },
+      properties: {
+        hex_id: "HEX-8382",
+        uniqueness: 0.72880680126476005,
+        diversity: 3.2410136784146584,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10013,7 +12237,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8383", value: 3.2680225187593601 },
+      properties: {
+        hex_id: "HEX-8383",
+        uniqueness: -0.96113422669445969,
+        diversity: 3.2680225187593601,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10031,7 +12259,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8384", value: 3.5321782577201994 },
+      properties: {
+        hex_id: "HEX-8384",
+        uniqueness: -0.88435314983513991,
+        diversity: 3.5321782577201994,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10049,7 +12281,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8431", value: 3.2930703531591412 },
+      properties: {
+        hex_id: "HEX-8431",
+        uniqueness: -0.82208468469700058,
+        diversity: 3.2930703531591412,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10067,7 +12303,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8434", value: 2.9993596526213229 },
+      properties: {
+        hex_id: "HEX-8434",
+        uniqueness: 0.68056334937345808,
+        diversity: 2.9993596526213229,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10085,7 +12325,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8437", value: 3.030344248018626 },
+      properties: {
+        hex_id: "HEX-8437",
+        uniqueness: -0.049055164705586275,
+        diversity: 3.030344248018626,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10103,7 +12347,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8476", value: 2.8743106999581314 },
+      properties: {
+        hex_id: "HEX-8476",
+        uniqueness: 0.16182779981057557,
+        diversity: 2.8743106999581314,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10121,7 +12369,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8478", value: 3.3837593473312291 },
+      properties: {
+        hex_id: "HEX-8478",
+        uniqueness: -0.57387049371605425,
+        diversity: 3.3837593473312291,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10139,7 +12391,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8480", value: 3.0223240561404734 },
+      properties: {
+        hex_id: "HEX-8480",
+        uniqueness: 0.85994919284656268,
+        diversity: 3.0223240561404734,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10157,7 +12413,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8481", value: 3.2941207345328274 },
+      properties: {
+        hex_id: "HEX-8481",
+        uniqueness: -1.0519391316050521,
+        diversity: 3.2941207345328274,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10175,7 +12435,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8525", value: 2.9603821364535587 },
+      properties: {
+        hex_id: "HEX-8525",
+        uniqueness: -0.25348181236461109,
+        diversity: 2.9603821364535587,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10193,7 +12457,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8526", value: 3.285965311193078 },
+      properties: {
+        hex_id: "HEX-8526",
+        uniqueness: -0.96518746411129874,
+        diversity: 3.285965311193078,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10211,7 +12479,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8573", value: 3.1387246176232448 },
+      properties: {
+        hex_id: "HEX-8573",
+        uniqueness: 0.18517024800342394,
+        diversity: 3.1387246176232448,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10229,7 +12501,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8574", value: 3.101797482831623 },
+      properties: {
+        hex_id: "HEX-8574",
+        uniqueness: -0.56969875382690449,
+        diversity: 3.101797482831623,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10247,7 +12523,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8576", value: 3.3247032305631961 },
+      properties: {
+        hex_id: "HEX-8576",
+        uniqueness: -1.2343375568348047,
+        diversity: 3.3247032305631961,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10265,7 +12545,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8577", value: 3.1960477772008695 },
+      properties: {
+        hex_id: "HEX-8577",
+        uniqueness: -0.086755902548349348,
+        diversity: 3.1960477772008695,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10283,7 +12567,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8621", value: 3.0387964512785719 },
+      properties: {
+        hex_id: "HEX-8621",
+        uniqueness: -0.021078074628397829,
+        diversity: 3.0387964512785719,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10301,7 +12589,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8622", value: 3.2762484249559298 },
+      properties: {
+        hex_id: "HEX-8622",
+        uniqueness: -0.34841022982836106,
+        diversity: 3.2762484249559298,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10319,7 +12611,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8624", value: 3.3686157056852268 },
+      properties: {
+        hex_id: "HEX-8624",
+        uniqueness: -0.65322580324907942,
+        diversity: 3.3686157056852268,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10337,7 +12633,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8667", value: 2.8211306497931377 },
+      properties: {
+        hex_id: "HEX-8667",
+        uniqueness: 0.96737181434130481,
+        diversity: 2.8211306497931377,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10355,7 +12655,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8668", value: 3.3781001174723633 },
+      properties: {
+        hex_id: "HEX-8668",
+        uniqueness: 0.55806977934023905,
+        diversity: 3.3781001174723633,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10373,7 +12677,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8670", value: 1.877588216893713 },
+      properties: {
+        hex_id: "HEX-8670",
+        uniqueness: 3.8873731991594647,
+        diversity: 1.877588216893713,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10391,7 +12699,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8671", value: 2.6469536332413606 },
+      properties: {
+        hex_id: "HEX-8671",
+        uniqueness: 0.49586111814931594,
+        diversity: 2.6469536332413606,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10409,7 +12721,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8672", value: 3.3103797857286139 },
+      properties: {
+        hex_id: "HEX-8672",
+        uniqueness: -0.18868414711332898,
+        diversity: 3.3103797857286139,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10427,7 +12743,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8675", value: 2.9872008822353728 },
+      properties: {
+        hex_id: "HEX-8675",
+        uniqueness: 0.8467039299888256,
+        diversity: 2.9872008822353728,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10445,7 +12765,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8715", value: 3.4153863556578656 },
+      properties: {
+        hex_id: "HEX-8715",
+        uniqueness: -0.77322872639597839,
+        diversity: 3.4153863556578656,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10463,7 +12787,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8719", value: 3.2029894706211279 },
+      properties: {
+        hex_id: "HEX-8719",
+        uniqueness: -0.79803541416108315,
+        diversity: 3.2029894706211279,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10481,7 +12809,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8720", value: 3.0505479223009822 },
+      properties: {
+        hex_id: "HEX-8720",
+        uniqueness: -0.31605721121530678,
+        diversity: 3.0505479223009822,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10499,7 +12831,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8723", value: 3.4080823034259677 },
+      properties: {
+        hex_id: "HEX-8723",
+        uniqueness: -0.33319133210926011,
+        diversity: 3.4080823034259677,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10517,7 +12853,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8765", value: 3.1538639246899565 },
+      properties: {
+        hex_id: "HEX-8765",
+        uniqueness: 0.19951076279456581,
+        diversity: 3.1538639246899565,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10535,7 +12875,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8766", value: 2.4981658147175771 },
+      properties: {
+        hex_id: "HEX-8766",
+        uniqueness: 2.321417493408596,
+        diversity: 2.4981658147175771,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10553,7 +12897,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8814", value: 3.1784166521264345 },
+      properties: {
+        hex_id: "HEX-8814",
+        uniqueness: -0.70124629559661467,
+        diversity: 3.1784166521264345,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10571,7 +12919,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8817", value: 3.2792698159352822 },
+      properties: {
+        hex_id: "HEX-8817",
+        uniqueness: -0.64609491462023949,
+        diversity: 3.2792698159352822,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10589,7 +12941,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8858", value: 2.9099924011937626 },
+      properties: {
+        hex_id: "HEX-8858",
+        uniqueness: 0.3693983134483117,
+        diversity: 2.9099924011937626,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10607,7 +12963,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8861", value: 3.379676270045894 },
+      properties: {
+        hex_id: "HEX-8861",
+        uniqueness: -1.4562974879859276,
+        diversity: 3.379676270045894,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10625,7 +12985,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8862", value: 3.0941629707815781 },
+      properties: {
+        hex_id: "HEX-8862",
+        uniqueness: 0.58859140170142676,
+        diversity: 3.0941629707815781,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10643,7 +13007,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8864", value: 3.5782725303229741 },
+      properties: {
+        hex_id: "HEX-8864",
+        uniqueness: -1.2547122037765801,
+        diversity: 3.5782725303229741,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10661,7 +13029,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8905", value: 3.075414340627066 },
+      properties: {
+        hex_id: "HEX-8905",
+        uniqueness: -0.82156646099265929,
+        diversity: 3.075414340627066,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10679,7 +13051,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8909", value: 3.2736009427338524 },
+      properties: {
+        hex_id: "HEX-8909",
+        uniqueness: 0.9186589780201182,
+        diversity: 3.2736009427338524,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10697,7 +13073,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8910", value: 3.3940504661026245 },
+      properties: {
+        hex_id: "HEX-8910",
+        uniqueness: -0.05957076554082031,
+        diversity: 3.3940504661026245,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10715,7 +13095,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8912", value: 3.5780344567007543 },
+      properties: {
+        hex_id: "HEX-8912",
+        uniqueness: -1.1823523364148765,
+        diversity: 3.5780344567007543,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10733,7 +13117,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-8960", value: 3.3623819076921042 },
+      properties: {
+        hex_id: "HEX-8960",
+        uniqueness: -0.52534654180451079,
+        diversity: 3.3623819076921042,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10751,7 +13139,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-9002", value: 3.4230585770747335 },
+      properties: {
+        hex_id: "HEX-9002",
+        uniqueness: -0.73347370954273461,
+        diversity: 3.4230585770747335,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10769,7 +13161,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-9097", value: 3.2752729224408661 },
+      properties: {
+        hex_id: "HEX-9097",
+        uniqueness: -0.2961057813439481,
+        diversity: 3.2752729224408661,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10787,7 +13183,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-9098", value: 3.1059493150437731 },
+      properties: {
+        hex_id: "HEX-9098",
+        uniqueness: 0.59851767005892631,
+        diversity: 3.1059493150437731,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10805,7 +13205,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-9144", value: 2.8312617128550306 },
+      properties: {
+        hex_id: "HEX-9144",
+        uniqueness: 0.82326687782964958,
+        diversity: 2.8312617128550306,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10823,7 +13227,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-9243", value: 3.3812607268236454 },
+      properties: {
+        hex_id: "HEX-9243",
+        uniqueness: 0.16865996651096349,
+        diversity: 3.3812607268236454,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10841,7 +13249,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-9244", value: 3.2144216293493963 },
+      properties: {
+        hex_id: "HEX-9244",
+        uniqueness: 0.8159708811599693,
+        diversity: 3.2144216293493963,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10859,7 +13271,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-9338", value: 3.5691032078980451 },
+      properties: {
+        hex_id: "HEX-9338",
+        uniqueness: -0.97879429232677506,
+        diversity: 3.5691032078980451,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10877,7 +13293,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-9386", value: 3.3253665963620533 },
+      properties: {
+        hex_id: "HEX-9386",
+        uniqueness: 0.49182807637116471,
+        diversity: 3.3253665963620533,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10895,7 +13315,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-9389", value: 3.2470740924912533 },
+      properties: {
+        hex_id: "HEX-9389",
+        uniqueness: 0.060471881259475849,
+        diversity: 3.2470740924912533,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10913,7 +13337,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-9525", value: 3.203953504498863 },
+      properties: {
+        hex_id: "HEX-9525",
+        uniqueness: 0.49133353232572546,
+        diversity: 3.203953504498863,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10931,7 +13359,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-9526", value: 2.8551794169986646 },
+      properties: {
+        hex_id: "HEX-9526",
+        uniqueness: 1.6077875913988506,
+        diversity: 2.8551794169986646,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10949,7 +13381,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-9532", value: 3.2140988136364199 },
+      properties: {
+        hex_id: "HEX-9532",
+        uniqueness: -0.38880788957549395,
+        diversity: 3.2140988136364199,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10967,7 +13403,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-9575", value: 3.1865876433378193 },
+      properties: {
+        hex_id: "HEX-9575",
+        uniqueness: 0.46019079611693486,
+        diversity: 3.1865876433378193,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -10985,7 +13425,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-9579", value: 3.0930735274658203 },
+      properties: {
+        hex_id: "HEX-9579",
+        uniqueness: 0.23866509725290852,
+        diversity: 3.0930735274658203,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -11003,7 +13447,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-9617", value: 3.0784143000240225 },
+      properties: {
+        hex_id: "HEX-9617",
+        uniqueness: 0.30453162437314085,
+        diversity: 3.0784143000240225,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -11021,7 +13469,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-9622", value: 2.9538903985131815 },
+      properties: {
+        hex_id: "HEX-9622",
+        uniqueness: 1.1303976957522646,
+        diversity: 2.9538903985131815,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -11039,7 +13491,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-9623", value: 3.3607377186289735 },
+      properties: {
+        hex_id: "HEX-9623",
+        uniqueness: 0.29757403027314883,
+        diversity: 3.3607377186289735,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -11057,7 +13513,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-9674", value: 3.4309062387826259 },
+      properties: {
+        hex_id: "HEX-9674",
+        uniqueness: -0.77663206011121089,
+        diversity: 3.4309062387826259,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -11075,7 +13535,11 @@ export const diversity = {
     },
     {
       type: "Feature",
-      properties: { hex_id: "HEX-9910", value: 3.111822149146136 },
+      properties: {
+        hex_id: "HEX-9910",
+        uniqueness: 0.61081911042941406,
+        diversity: 3.111822149146136,
+      },
       geometry: {
         type: "Polygon",
         coordinates: [

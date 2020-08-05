@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import DeckGL from "@deck.gl/react";
 import { StaticMap } from "react-map-gl";
-
 import { createIndexLayer } from "./selectGeoJsonLayerCreator";
 
 const INITIAL_VIEW_STATE = {
@@ -30,9 +29,9 @@ function IndicatorMap({ data, opacity }) {
           initialViewState={INITIAL_VIEW_STATE}
           controller={true}
           layers={[createIndexLayer(data, opacity)]}
-          getTooltip={({ object }) =>
-            object && object.properties.value.toFixed(4)
-          }
+          // getTooltip={({ object }) =>
+          //   object && object.properties.uniqueness.toFixed(4)
+          // }
         >
           <StaticMap
             mapboxApiAccessToken={MAPBOX_TOKEN}

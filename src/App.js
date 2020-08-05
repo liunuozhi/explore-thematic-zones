@@ -95,14 +95,6 @@ function App() {
             <Step data={7} key={7}>
               <div style={{ margin: "100vh 0" }}>{introduction}</div>
             </Step>
-
-            <Step data={8} key={8}>
-              <div style={{ margin: "100vh 0" }}>{introduction}</div>
-            </Step>
-
-            <Step data={9} key={9}>
-              <div style={{ margin: "100vh 0" }}>{introduction}</div>
-            </Step>
           </Scrollama>
         </div>
       </ClickedTopicContext.Provider>
