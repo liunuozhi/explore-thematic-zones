@@ -1,14 +1,17 @@
-import React, { useState } from "react";
+import React, { useState, useCallback } from "react";
 import DeckGL from "@deck.gl/react";
-import { StaticMap } from "react-map-gl";
+import { StaticMap, FlyToInterpolator } from "react-map-gl";
 import { createIndexLayer } from "./selectGeoJsonLayerCreator";
+import { Switch, Button } from "@material-ui/core";
 
 const INITIAL_VIEW_STATE = {
-  longitude: 103.885261,
-  latitude: 1.358412,
-  zoom: 10.5,
-  pitch: 60,
-  bearing: 25,
+  longitude: 103.805438,
+  latitude: 1.361589,
+  zoom: 11,
+  pitch: 0,
+  bearing: 0,
+  transitionDuration: 1000,
+  transitionInterpolator: new FlyToInterpolator(),
 };
 
 const MAPBOX_TOKEN =
@@ -20,13 +23,31 @@ function IndicatorMap({ data, opacity }) {
     width: window.innerWidth,
   });
 
+  const [initialView, setInitialView] = useState(INITIAL_VIEW_STATE);
+
+  const display3D = useCallback(() => {
+    setInitialView({
+      longitude: 103.805438,
+      latitude: 1.361589,
+      zoom: 12,
+      pitch: 60,
+      bearing: 40,
+      transitionDuration: 1000,
+      transitionInterpolator: new FlyToInterpolator(),
+    });
+  }, []);
+
+  const display2D = useCallback(() => {
+    setInitialView(INITIAL_VIEW_STATE);
+  }, []);
+
   return (
     <div>
       <div className="map" style={{ position: "relative" }}>
         <DeckGL
           width={windowSize.width}
           height={windowSize.height}
-          initialViewState={INITIAL_VIEW_STATE}
+          initialViewState={initialView}
           controller={true}
           layers={[createIndexLayer(data, opacity)]}
           // getTooltip={({ object }) =>
@@ -38,6 +59,11 @@ function IndicatorMap({ data, opacity }) {
             mapStyle="mapbox://styles/liunuozhi/ckd5pt7p90u9q1ip5q4vepbzd"
           />
         </DeckGL>
+      </div>
+
+      <div className="switch-view" style={{ backgroundColor: "white" }}>
+        <Button onClick={display3D}>3D</Button>
+        <Button onClick={display2D}>2D</Button>
       </div>
     </div>
   );
