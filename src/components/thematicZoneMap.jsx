@@ -5,6 +5,7 @@ import { StaticMap } from "react-map-gl";
 import { uniq } from "lodash";
 import { scaleOrdinal } from "d3-scale";
 import ClickedTopicContext from "../clickedTopicContext";
+import { subzone } from "../data/singapore_subzone";
 
 const INITIAL_VIEW_STATE = {
   longitude: 103.885261,
@@ -74,7 +75,44 @@ function addLayer(opacity, data, hoverTopic) {
   return layer;
 }
 
-function ThematicZoneMap({ data, opacity }) {
+// create geojson for singapore subzones
+function createColorScaler(data, selectKey) {
+  const colors = [
+    [65, 182, 196],
+    [127, 205, 187],
+    [199, 233, 180],
+    [237, 248, 177],
+    [255, 255, 204],
+    [255, 237, 160],
+    [254, 217, 118],
+    [254, 178, 76],
+    [253, 141, 60],
+    [252, 78, 42],
+    [227, 26, 28],
+    [189, 0, 38],
+    [128, 0, 38],
+  ];
+  const category = data.features.map((d) => d["properties"][selectKey]);
+  const colorScale = scaleOrdinal().domain(uniq(category)).range(colors);
+  return colorScale;
+}
+
+const subzoneColorScaler = createColorScaler(subzone, "SUBZONE_N");
+
+const subzoneLayer = new GeoJsonLayer({
+  id: "subzone-layer",
+  data: subzone,
+  opacity: 0.1,
+  pickable: true,
+  stroked: false,
+  filled: true,
+  lineWidthScale: 20,
+  lineWidthMinPixels: 2,
+  getFillColor: (f) => subzoneColorScaler(f.properties.SUBZONE_N),
+  getLineWidth: 5,
+});
+
+function ThematicZoneMap({ data, opacity, step }) {
   const [hoverTopic, setHoverTopicState] = useState(null);
   const { setClickedTopic } = useContext(ClickedTopicContext);
 
@@ -89,13 +127,18 @@ function ThematicZoneMap({ data, opacity }) {
     width: window.innerWidth,
   });
 
+  const layers =
+    step < 3
+      ? [subzoneLayer, addLayer(opacity / 100, data, hoverTopic)]
+      : [addLayer(opacity / 100, data, hoverTopic)];
+
   return (
     <div>
       <div className="map" style={{ position: "relative" }}>
         <DeckGL
           width={windowSize.width}
           height={windowSize.height}
-          layers={[addLayer(opacity / 100, data, hoverTopic)]}
+          layers={layers}
           initialViewState={INITIAL_VIEW_STATE}
           controller={true}
           getTooltip={({ object }) => object && object.properties.topic}

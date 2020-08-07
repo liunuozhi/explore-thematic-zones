@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import ThematicZoneMap from "./thematicZoneMap";
 import Slider from "@material-ui/core/Slider";
 
-function ThematicZone({ data }) {
+function ThematicZone({ data, step }) {
   const [opacity, setOpacity] = useState(30);
   return (
     <div>
       <div className="map">
-        <ThematicZoneMap data={data} opacity={opacity} />
+        <ThematicZoneMap data={data} opacity={opacity} step={step} />
       </div>
 
       <div className="side-bar">

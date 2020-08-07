@@ -7,10 +7,10 @@ import { uniqueness } from "./data/uniqueness";
 
 function selectDataByStep(step) {
   if (step === undefined || step === 1 || step === 2 || step === 3) {
-    return <ThematicZone data={ta_zone} />;
+    return <ThematicZone data={ta_zone} step={step} />;
   }
   if ((step >= 4) & (step < 6)) {
-    return <ThematicZone data={ig_zone} />;
+    return <ThematicZone data={ig_zone} step={step} />;
   }
   if (step >= 6) {
     return <IndicatorMap data={uniqueness} opacity={0.5} />;
