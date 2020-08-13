@@ -8,27 +8,12 @@ import ClickedTopicContext from "./clickedTopicContext";
 import TopicTermBarChart from "./components/topicTermBarChart";
 import { TA_TOP_BETA } from "./data/TripAdvisor_thematic_zone_top_10_beta";
 import { IG_TOP_BETA } from "./data/Instagram_thematic_zone_top_10_beta";
-
-// introduction
-const introduction = (
-  <p>
-    Aliquip aute aliquip do elit laborum ex nulla labore Lorem aliqua culpa
-    fugiat. Non et labore aute magna Lorem. Veniam sit tempor ipsum occaecat
-    elit cupidatat elit laboris aliqua. Id ut sunt id consectetur nostrud nulla
-    duis quis proident incididunt aliqua est id enim. Aute irure pariatur irure
-    anim consectetur consectetur in occaecat enim labore. Elit cillum non
-    excepteur incididunt sit nostrud adipisicing aliquip occaecat in mollit. Do
-    ipsum aliqua veniam esse esse id. Et nisi deserunt magna minim est sit
-    laborum. Ut cillum Lorem ex reprehenderit. Proident cupidatat id labore
-    reprehenderit excepteur deserunt id in. Culpa sit exercitation aute sit
-    magna eiusmod consequat officia. Do labore commodo nisi do nostrud nostrud
-    non nulla sunt duis veniam esse qui. Officia amet reprehenderit proident
-    proident aliqua id. Voluptate laborum est esse in eu aliqua incididunt
-    exercitation ea veniam Lorem. Nisi occaecat proident pariatur consequat.
-    Tempor nostrud proident velit consectetur reprehenderit elit ad minim Lorem
-    labore est est aliqua.
-  </p>
-);
+import {
+  ABSTRACT,
+  CONTENT_FUNCTION_ZONE,
+  CONTENT_PERCEPTION_ZONE,
+  CONTENT_UNIQUENESS,
+} from "./data/description";
 
 function App() {
   // create context for selecting topic
@@ -53,13 +38,22 @@ function App() {
             offset={0.6}
           >
             <Step data={1} key={1}>
-              <h1 style={{ marginTop: "1vh", padding: "50px 0 50px" }}>
-                Explore Singapore Thematic Zone
-              </h1>
+              <div style={{ marginTop: "1vh", padding: "50px 0 50px" }}>
+                <h1 style={{ marginBottom: "0" }}>
+                  Explore Singapore Thematic Zone
+                </h1>
+                <p style={{ marginBottom: "0" }}>
+                  <strong>Author:</strong> Liu Nuozhi
+                </p>
+                <p>
+                  <strong>Advisor:</strong> Immanuel Koh
+                </p>
+                {ABSTRACT}
+              </div>
             </Step>
 
             <Step data={2} key={2}>
-              <div style={{ margin: "100vh 0" }}>{introduction}</div>
+              <div style={{ margin: "100vh 0" }}>{CONTENT_FUNCTION_ZONE}</div>
             </Step>
 
             <Step data={3} key={3}>
@@ -74,7 +68,7 @@ function App() {
             </Step>
 
             <Step data={4} key={4}>
-              {introduction}
+              {CONTENT_PERCEPTION_ZONE}
             </Step>
 
             <Step data={5} key={5}>
@@ -89,11 +83,7 @@ function App() {
             </Step>
 
             <Step data={6} key={6}>
-              <div style={{ margin: "100vh 0" }}>{introduction}</div>
-            </Step>
-
-            <Step data={7} key={7}>
-              <div style={{ margin: "100vh 0" }}>{introduction}</div>
+              <div style={{ margin: "100vh 0" }}>{CONTENT_UNIQUENESS}</div>
             </Step>
           </Scrollama>
         </div>

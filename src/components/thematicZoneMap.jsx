@@ -128,7 +128,7 @@ function ThematicZoneMap({ data, opacity, step }) {
   });
 
   const layers =
-    step < 3
+    step < 2
       ? [subzoneLayer, addLayer(opacity / 100, data, hoverTopic)]
       : [addLayer(opacity / 100, data, hoverTopic)];
 
