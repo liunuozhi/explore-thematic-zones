@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import { Scrollama, Step } from "react-scrollama";
+import { Helmet } from "react-helmet";
 import Map from "./map.jsx";
 import UserGuideHelper from "./helperIcon";
 import ClickedTopicContext from "./clickedTopicContext";
@@ -23,6 +24,28 @@ function App() {
   const [currentStepIndex, setCurrentStepIndex] = useState(1);
   return (
     <div className="App">
+      <Helmet
+        meta={[
+          {
+            property: "og:image",
+            content:
+              "https://raw.githubusercontent.com/liunuozhi/explore-thematic-zones/master/public/thumbnail.png",
+          },
+          {
+            property: "og:title",
+            content: "Explore Thematic Zones in Singapore",
+          },
+          {
+            property: "og:url",
+            content: "https://explore-singapore.netlify.app/",
+          },
+          {
+            property: "og:description",
+            content: "Explore Thematic Zones in Singapore",
+          },
+        ]}
+      />
+
       <ClickedTopicContext.Provider value={{ clickedTopic, setClickedTopic }}>
         <div className="map">
           <Map step={currentStepIndex} />
