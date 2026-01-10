@@ -20,7 +20,7 @@
     "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0",
     "react-map-gl": "^5.2.7",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "react-scrollama": "^2.2.10",
     "react-vis": "^1.11.7",
     "recharts": "^1.8.5"
